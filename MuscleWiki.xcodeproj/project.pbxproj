@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88C3C1E51C883FDD007EF0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C1E41C883FDD007EF0F9 /* AppDelegate.swift */; };
+		88C3C1E71C883FDD007EF0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C1E61C883FDD007EF0F9 /* ViewController.swift */; };
+		88C3C1EA1C883FDD007EF0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3C1E81C883FDD007EF0F9 /* Main.storyboard */; };
+		88C3C1ED1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C1EB1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld */; };
+		88C3C1EF1C883FDD007EF0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C3C1EE1C883FDD007EF0F9 /* Assets.xcassets */; };
+		88C3C1F21C883FDD007EF0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3C1F01C883FDD007EF0F9 /* LaunchScreen.storyboard */; };
+		88C3C1FD1C883FDD007EF0F9 /* MuscleWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C1FC1C883FDD007EF0F9 /* MuscleWikiTests.swift */; };
+		88C3C2081C883FDD007EF0F9 /* MuscleWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C2071C883FDD007EF0F9 /* MuscleWikiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88C3C1F91C883FDD007EF0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C3C1D91C883FDD007EF0F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C3C1E01C883FDD007EF0F9;
+			remoteInfo = MuscleWiki;
+		};
+		88C3C2041C883FDD007EF0F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C3C1D91C883FDD007EF0F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C3C1E01C883FDD007EF0F9;
+			remoteInfo = MuscleWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88C3C1E11C883FDD007EF0F9 /* MuscleWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuscleWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C3C1E41C883FDD007EF0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88C3C1E61C883FDD007EF0F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88C3C1E91C883FDD007EF0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C3C1EC1C883FDD007EF0F9 /* MuscleWiki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MuscleWiki.xcdatamodel; sourceTree = "<group>"; };
+		88C3C1EE1C883FDD007EF0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88C3C1F11C883FDD007EF0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88C3C1F31C883FDD007EF0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C3C1F81C883FDD007EF0F9 /* MuscleWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C3C1FC1C883FDD007EF0F9 /* MuscleWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleWikiTests.swift; sourceTree = "<group>"; };
+		88C3C1FE1C883FDD007EF0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C3C2031C883FDD007EF0F9 /* MuscleWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C3C2071C883FDD007EF0F9 /* MuscleWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleWikiUITests.swift; sourceTree = "<group>"; };
+		88C3C2091C883FDD007EF0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C3C1DE1C883FDD007EF0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3C1F51C883FDD007EF0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3C2001C883FDD007EF0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C3C1D81C883FDD007EF0F9 = {
+			isa = PBXGroup;
+			children = (
+				88C3C1E31C883FDD007EF0F9 /* MuscleWiki */,
+				88C3C1FB1C883FDD007EF0F9 /* MuscleWikiTests */,
+				88C3C2061C883FDD007EF0F9 /* MuscleWikiUITests */,
+				88C3C1E21C883FDD007EF0F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C3C1E21C883FDD007EF0F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C3C1E11C883FDD007EF0F9 /* MuscleWiki.app */,
+				88C3C1F81C883FDD007EF0F9 /* MuscleWikiTests.xctest */,
+				88C3C2031C883FDD007EF0F9 /* MuscleWikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C3C1E31C883FDD007EF0F9 /* MuscleWiki */ = {
+			isa = PBXGroup;
+			children = (
+				88C3C1E41C883FDD007EF0F9 /* AppDelegate.swift */,
+				88C3C1E61C883FDD007EF0F9 /* ViewController.swift */,
+				88C3C1E81C883FDD007EF0F9 /* Main.storyboard */,
+				88C3C1EE1C883FDD007EF0F9 /* Assets.xcassets */,
+				88C3C1F01C883FDD007EF0F9 /* LaunchScreen.storyboard */,
+				88C3C1F31C883FDD007EF0F9 /* Info.plist */,
+				88C3C1EB1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld */,
+			);
+			path = MuscleWiki;
+			sourceTree = "<group>";
+		};
+		88C3C1FB1C883FDD007EF0F9 /* MuscleWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				88C3C1FC1C883FDD007EF0F9 /* MuscleWikiTests.swift */,
+				88C3C1FE1C883FDD007EF0F9 /* Info.plist */,
+			);
+			path = MuscleWikiTests;
+			sourceTree = "<group>";
+		};
+		88C3C2061C883FDD007EF0F9 /* MuscleWikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88C3C2071C883FDD007EF0F9 /* MuscleWikiUITests.swift */,
+				88C3C2091C883FDD007EF0F9 /* Info.plist */,
+			);
+			path = MuscleWikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C3C1E01C883FDD007EF0F9 /* MuscleWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C3C20C1C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWiki" */;
+			buildPhases = (
+				88C3C1DD1C883FDD007EF0F9 /* Sources */,
+				88C3C1DE1C883FDD007EF0F9 /* Frameworks */,
+				88C3C1DF1C883FDD007EF0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuscleWiki;
+			productName = MuscleWiki;
+			productReference = 88C3C1E11C883FDD007EF0F9 /* MuscleWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88C3C1F71C883FDD007EF0F9 /* MuscleWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C3C20F1C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWikiTests" */;
+			buildPhases = (
+				88C3C1F41C883FDD007EF0F9 /* Sources */,
+				88C3C1F51C883FDD007EF0F9 /* Frameworks */,
+				88C3C1F61C883FDD007EF0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C3C1FA1C883FDD007EF0F9 /* PBXTargetDependency */,
+			);
+			name = MuscleWikiTests;
+			productName = MuscleWikiTests;
+			productReference = 88C3C1F81C883FDD007EF0F9 /* MuscleWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88C3C2021C883FDD007EF0F9 /* MuscleWikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C3C2121C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWikiUITests" */;
+			buildPhases = (
+				88C3C1FF1C883FDD007EF0F9 /* Sources */,
+				88C3C2001C883FDD007EF0F9 /* Frameworks */,
+				88C3C2011C883FDD007EF0F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C3C2051C883FDD007EF0F9 /* PBXTargetDependency */,
+			);
+			name = MuscleWikiUITests;
+			productName = MuscleWikiUITests;
+			productReference = 88C3C2031C883FDD007EF0F9 /* MuscleWikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C3C1D91C883FDD007EF0F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张嘉夫";
+				TargetAttributes = {
+					88C3C1E01C883FDD007EF0F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					88C3C1F71C883FDD007EF0F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 88C3C1E01C883FDD007EF0F9;
+					};
+					88C3C2021C883FDD007EF0F9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 88C3C1E01C883FDD007EF0F9;
+					};
+				};
+			};
+			buildConfigurationList = 88C3C1DC1C883FDD007EF0F9 /* Build configuration list for PBXProject "MuscleWiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C3C1D81C883FDD007EF0F9;
+			productRefGroup = 88C3C1E21C883FDD007EF0F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C3C1E01C883FDD007EF0F9 /* MuscleWiki */,
+				88C3C1F71C883FDD007EF0F9 /* MuscleWikiTests */,
+				88C3C2021C883FDD007EF0F9 /* MuscleWikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C3C1DF1C883FDD007EF0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C3C1F21C883FDD007EF0F9 /* LaunchScreen.storyboard in Resources */,
+				88C3C1EF1C883FDD007EF0F9 /* Assets.xcassets in Resources */,
+				88C3C1EA1C883FDD007EF0F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3C1F61C883FDD007EF0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3C2011C883FDD007EF0F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C3C1DD1C883FDD007EF0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C3C1ED1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld in Sources */,
+				88C3C1E71C883FDD007EF0F9 /* ViewController.swift in Sources */,
+				88C3C1E51C883FDD007EF0F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3C1F41C883FDD007EF0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C3C1FD1C883FDD007EF0F9 /* MuscleWikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3C1FF1C883FDD007EF0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C3C2081C883FDD007EF0F9 /* MuscleWikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88C3C1FA1C883FDD007EF0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C3C1E01C883FDD007EF0F9 /* MuscleWiki */;
+			targetProxy = 88C3C1F91C883FDD007EF0F9 /* PBXContainerItemProxy */;
+		};
+		88C3C2051C883FDD007EF0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C3C1E01C883FDD007EF0F9 /* MuscleWiki */;
+			targetProxy = 88C3C2041C883FDD007EF0F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88C3C1E81C883FDD007EF0F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C3C1E91C883FDD007EF0F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88C3C1F01C883FDD007EF0F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C3C1F11C883FDD007EF0F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C3C20A1C883FDD007EF0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C3C20B1C883FDD007EF0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C3C20D1C883FDD007EF0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MuscleWiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88C3C20E1C883FDD007EF0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MuscleWiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88C3C2101C883FDD007EF0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuscleWikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleWiki.app/MuscleWiki";
+			};
+			name = Debug;
+		};
+		88C3C2111C883FDD007EF0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuscleWikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleWiki.app/MuscleWiki";
+			};
+			name = Release;
+		};
+		88C3C2131C883FDD007EF0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MuscleWikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MuscleWiki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88C3C2141C883FDD007EF0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MuscleWikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MuscleWiki;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C3C1DC1C883FDD007EF0F9 /* Build configuration list for PBXProject "MuscleWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C3C20A1C883FDD007EF0F9 /* Debug */,
+				88C3C20B1C883FDD007EF0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C3C20C1C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C3C20D1C883FDD007EF0F9 /* Debug */,
+				88C3C20E1C883FDD007EF0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88C3C20F1C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C3C2101C883FDD007EF0F9 /* Debug */,
+				88C3C2111C883FDD007EF0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88C3C2121C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C3C2131C883FDD007EF0F9 /* Debug */,
+				88C3C2141C883FDD007EF0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88C3C1EB1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88C3C1EC1C883FDD007EF0F9 /* MuscleWiki.xcdatamodel */,
+			);
+			currentVersion = 88C3C1EC1C883FDD007EF0F9 /* MuscleWiki.xcdatamodel */;
+			path = MuscleWiki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88C3C1D91C883FDD007EF0F9 /* Project object */;
+}
