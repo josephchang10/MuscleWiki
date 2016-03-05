@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MuscleWiki" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +18,288 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="body_front" translatesAutoresizingMaskIntoConstraints="NO" id="df7-e4-Dp7">
+                                <rect key="frame" x="155" y="46" width="290" height="509"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="df7-e4-Dp7" secondAttribute="height" multiplier="870:1526" id="aBZ-tt-aUy"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DyP-zJ-2FJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="转身"/>
+                                <connections>
+                                    <action selector="flip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AOB-79-BL2"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="df7-e4-Dp7" secondAttribute="trailing" id="4tn-QV-8Z9"/>
+                            <constraint firstItem="df7-e4-Dp7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HOT-7u-hdH"/>
+                            <constraint firstItem="DyP-zJ-2FJ" firstAttribute="centerX" secondItem="df7-e4-Dp7" secondAttribute="centerX" id="Q2d-Al-Ln4"/>
+                            <constraint firstItem="df7-e4-Dp7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="axm-dT-2Bu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DyP-zJ-2FJ" secondAttribute="bottom" constant="8" symbolic="YES" id="cHX-eo-jXP"/>
+                            <constraint firstItem="df7-e4-Dp7" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="hpc-IM-p0D"/>
+                            <constraint firstItem="df7-e4-Dp7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xgw-Op-9iu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="df7-e4-Dp7" secondAttribute="bottom" id="y5I-oV-waE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="DyP-zJ-2FJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Q2d-Al-Ln4"/>
+                                <exclude reference="cHX-eo-jXP"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="DyP-zJ-2FJ"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Q2d-Al-Ln4"/>
+                                <include reference="cHX-eo-jXP"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="frontMuscleImageView" destination="df7-e4-Dp7" id="BcC-iI-yeM"/>
+                        <segue destination="LdA-2W-hEO" kind="presentation" identifier="Exercises" id="JRs-oe-FvU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="565" y="439"/>
+        </scene>
+        <!--Exercise View Controller-->
+        <scene sceneID="FMd-Ok-i3l">
+            <objects>
+                <viewController id="gyY-cE-LuN" customClass="ExerciseViewController" customModule="MuscleWiki" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pgx-oS-j0u"/>
+                        <viewControllerLayoutGuide type="bottom" id="CLM-Jm-6yz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Erf-wN-LbU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="SN4-Kv-SLy">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DescriptionCell" id="ORz-3t-AUn" customClass="MuscleSummaryTableViewCell" customModule="MuscleWiki" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="114" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ORz-3t-AUn" id="XjH-fP-Q7l">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20H-Bb-HQ1">
+                                                    <rect key="frame" x="8" y="11" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="20H-Bb-HQ1" secondAttribute="trailing" id="DcL-BB-FNW"/>
+                                                <constraint firstItem="20H-Bb-HQ1" firstAttribute="leading" secondItem="XjH-fP-Q7l" secondAttribute="leadingMargin" id="OeA-vr-zqG"/>
+                                                <constraint firstItem="20H-Bb-HQ1" firstAttribute="top" secondItem="XjH-fP-Q7l" secondAttribute="topMargin" constant="3" id="cgM-s0-yVh"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="20H-Bb-HQ1" secondAttribute="bottom" constant="3" id="ied-hP-2VQ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="summaryLabel" destination="20H-Bb-HQ1" id="30t-BM-Fbe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExerciseCell" rowHeight="263" id="c59-6i-Zum" customClass="ExerciseTableViewCell" customModule="MuscleWiki" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="158" width="600" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c59-6i-Zum" id="xwB-dg-XIW">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="299"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOY-3L-aZm">
+                                                    <rect key="frame" x="8" y="8" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDK-Oe-lyD">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="gDK-Oe-lyD" secondAttribute="height" multiplier="16:9" id="9qO-lI-JRL"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="9qO-lI-JRL"/>
+                                                        </mask>
+                                                    </variation>
+                                                    <variation key="widthClass=compact">
+                                                        <mask key="constraints">
+                                                            <include reference="9qO-lI-JRL"/>
+                                                        </mask>
+                                                    </variation>
+                                                </scrollView>
+                                                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Fl2-Ed-iEE">
+                                                    <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                                                </pageControl>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="AOY-3L-aZm" secondAttribute="trailing" id="6ts-Bw-hKM"/>
+                                                <constraint firstItem="Fl2-Ed-iEE" firstAttribute="centerX" secondItem="xwB-dg-XIW" secondAttribute="centerX" id="AkV-ZU-Prf"/>
+                                                <constraint firstAttribute="trailing" secondItem="gDK-Oe-lyD" secondAttribute="trailing" id="DWs-lR-JQg"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Fl2-Ed-iEE" secondAttribute="bottom" constant="217" id="IKo-pQ-Xlg">
+                                                    <variation key="widthClass=compact" constant="-8"/>
+                                                </constraint>
+                                                <constraint firstAttribute="bottom" secondItem="gDK-Oe-lyD" secondAttribute="bottom" id="fNI-mH-lFk"/>
+                                                <constraint firstItem="gDK-Oe-lyD" firstAttribute="top" secondItem="AOY-3L-aZm" secondAttribute="bottom" constant="8" symbolic="YES" id="iUX-D9-8i1"/>
+                                                <constraint firstItem="AOY-3L-aZm" firstAttribute="top" secondItem="xwB-dg-XIW" secondAttribute="topMargin" id="nOf-Ga-g6J"/>
+                                                <constraint firstItem="gDK-Oe-lyD" firstAttribute="leading" secondItem="xwB-dg-XIW" secondAttribute="leading" id="sbZ-Y5-DIg"/>
+                                                <constraint firstItem="AOY-3L-aZm" firstAttribute="leading" secondItem="xwB-dg-XIW" secondAttribute="leadingMargin" id="zl3-bN-b73"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="gDK-Oe-lyD"/>
+                                                    <exclude reference="Fl2-Ed-iEE"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="6ts-Bw-hKM"/>
+                                                    <exclude reference="DWs-lR-JQg"/>
+                                                    <exclude reference="fNI-mH-lFk"/>
+                                                    <exclude reference="iUX-D9-8i1"/>
+                                                    <exclude reference="sbZ-Y5-DIg"/>
+                                                    <exclude reference="AkV-ZU-Prf"/>
+                                                    <exclude reference="IKo-pQ-Xlg"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="gDK-Oe-lyD"/>
+                                                    <include reference="Fl2-Ed-iEE"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="6ts-Bw-hKM"/>
+                                                    <include reference="DWs-lR-JQg"/>
+                                                    <include reference="fNI-mH-lFk"/>
+                                                    <include reference="iUX-D9-8i1"/>
+                                                    <include reference="sbZ-Y5-DIg"/>
+                                                    <include reference="AkV-ZU-Prf"/>
+                                                    <include reference="IKo-pQ-Xlg"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageScrollView" destination="gDK-Oe-lyD" id="83l-ui-4Zg"/>
+                                            <outlet property="imageScrollViewPageControl" destination="Fl2-Ed-iEE" id="kqA-NC-jpz"/>
+                                            <outlet property="nameLabel" destination="AOY-3L-aZm" id="1be-kO-atN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StepCell" id="crF-fB-C9n" customClass="ExerciseStepTableViewCell" customModule="MuscleWiki" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="crF-fB-C9n" id="NGq-3q-pMK">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dg3-Id-53y">
+                                                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Dg3-Id-53y" firstAttribute="top" secondItem="NGq-3q-pMK" secondAttribute="topMargin" constant="3" id="IBI-0W-5IQ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Dg3-Id-53y" secondAttribute="bottom" constant="3" id="MCw-ne-2yw"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Dg3-Id-53y" secondAttribute="trailing" id="Yrl-aQ-cq0"/>
+                                                <constraint firstItem="Dg3-Id-53y" firstAttribute="leading" secondItem="NGq-3q-pMK" secondAttribute="leadingMargin" id="wsu-iQ-W0J"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="Dg3-Id-53y"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="IBI-0W-5IQ"/>
+                                                    <exclude reference="MCw-ne-2yw"/>
+                                                    <exclude reference="Yrl-aQ-cq0"/>
+                                                    <exclude reference="wsu-iQ-W0J"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="Dg3-Id-53y"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="IBI-0W-5IQ"/>
+                                                    <include reference="MCw-ne-2yw"/>
+                                                    <include reference="Yrl-aQ-cq0"/>
+                                                    <include reference="wsu-iQ-W0J"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="contentLabel" destination="Dg3-Id-53y" id="uq5-iV-hhW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExercisesCell" id="rky-Be-ycC" customClass="ExercisesTableViewCell" customModule="MuscleWiki" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rky-Be-ycC" id="Ali-Hr-UYC">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="gyY-cE-LuN" id="jia-NA-8nw"/>
+                                    <outlet property="delegate" destination="gyY-cE-LuN" id="zcN-YC-i9w"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SN4-Kv-SLy" secondAttribute="trailing" id="BDQ-sP-Wpd"/>
+                            <constraint firstItem="SN4-Kv-SLy" firstAttribute="leading" secondItem="Erf-wN-LbU" secondAttribute="leading" id="HXw-aA-PGg"/>
+                            <constraint firstItem="SN4-Kv-SLy" firstAttribute="top" secondItem="Erf-wN-LbU" secondAttribute="top" id="ewb-8t-ifs"/>
+                            <constraint firstItem="SN4-Kv-SLy" firstAttribute="bottom" secondItem="CLM-Jm-6yz" secondAttribute="top" id="i9c-dy-BfU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ijV-SY-o0U">
+                        <barButtonItem key="leftBarButtonItem" image="icon_back" id="LVR-8v-n2k">
+                            <connections>
+                                <action selector="cancel:" destination="gyY-cE-LuN" id="lmy-Fd-Ajf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="SN4-Kv-SLy" id="8mc-ka-sSv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wD5-lT-UZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2106" y="439"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="v7A-8v-ZjD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LdA-2W-hEO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8ee-Kh-lDO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gyY-cE-LuN" kind="relationship" relationship="rootViewController" id="yWX-FV-Wy7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tAQ-ur-yQP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1295" y="439"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="body_front" width="290" height="509"/>
+        <image name="icon_back" width="10" height="17"/>
+    </resources>
 </document>

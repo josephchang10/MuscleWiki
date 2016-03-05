@@ -7,6 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		888E13361C888E1D0090BE99 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E13351C888E1D0090BE99 /* ExerciseViewController.swift */; };
+		888E133B1C8892800090BE99 /* MuscleSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E133A1C8892800090BE99 /* MuscleSummaryTableViewCell.swift */; };
+		888E133E1C88969F0090BE99 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E133D1C88969F0090BE99 /* ExerciseTableViewCell.swift */; };
+		888E13411C889D550090BE99 /* ExerciseStepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E13401C889D550090BE99 /* ExerciseStepTableViewCell.swift */; };
+		888E13441C88A9870090BE99 /* ExercisesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E13431C88A9870090BE99 /* ExercisesTableViewCell.swift */; };
+		888E13481C8965C60090BE99 /* Chest Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13471C8965C60090BE99 /* Chest Front.mp4 */; };
+		888E134A1C8965F00090BE99 /* Chest Side v2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13491C8965F00090BE99 /* Chest Side v2.mp4 */; };
+		888E134C1C89666F0090BE99 /* Front Dips Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E134B1C89666F0090BE99 /* Front Dips Side.mp4 */; };
+		888E134E1C897A430090BE99 /* ChestDips-Front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E134D1C897A430090BE99 /* ChestDips-Front-021316.mp4 */; };
+		888E13501C897BBA0090BE99 /* DumbellCP-Front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E134F1C897BBA0090BE99 /* DumbellCP-Front-021316.mp4 */; };
+		888E13521C89803B0090BE99 /* DumbbellCP-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13511C89803B0090BE99 /* DumbbellCP-Side-021316.mp4 */; };
+		888E13551C89807F0090BE99 /* Flyes-Front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13531C89807F0090BE99 /* Flyes-Front-021316.mp4 */; };
+		888E13561C89807F0090BE99 /* Flyes-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13541C89807F0090BE99 /* Flyes-Side-021316.mp4 */; };
+		888E13591C8981710090BE99 /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E13571C8981710090BE99 /* Video+CoreDataProperties.swift */; };
+		888E135A1C8981710090BE99 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E13581C8981710090BE99 /* Video.swift */; };
+		888E135D1C8983160090BE99 /* ExerciseVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E135C1C8983160090BE99 /* ExerciseVideoTableViewCell.swift */; };
+		888E135F1C8983340090BE99 /* ExerciseVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888E135E1C8983340090BE99 /* ExerciseVideoTableViewCell.xib */; };
+		888E13631C898F170090BE99 /* Trap Raises Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13621C898F170090BE99 /* Trap Raises Front.mp4 */; };
+		888E13651C898F410090BE99 /* Trap Raises Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13641C898F410090BE99 /* Trap Raises Side.mp4 */; };
+		888E13671C898FC20090BE99 /* Standing Smith Machine Shrugs Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13661C898FC20090BE99 /* Standing Smith Machine Shrugs Front.mp4 */; };
+		888E136A1C8993D50090BE99 /* MuscleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E13691C8993D50090BE99 /* MuscleButton.swift */; };
+		888E136E1C8996AA0090BE99 /* ShoulderPress-Front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E136C1C8996AA0090BE99 /* ShoulderPress-Front-021316.mp4 */; };
+		888E136F1C8996AA0090BE99 /* ShoulderPress-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E136D1C8996AA0090BE99 /* ShoulderPress-Side-021316.mp4 */; };
+		888E13721C8996D20090BE99 /* SideLateralRaise-Front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13701C8996D20090BE99 /* SideLateralRaise-Front-021316.mp4 */; };
+		888E13731C8996D20090BE99 /* SideLateralRaise-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13711C8996D20090BE99 /* SideLateralRaise-Side-021316.mp4 */; };
+		888E13761C8996F60090BE99 /* RearDF-Front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13741C8996F60090BE99 /* RearDF-Front-021316.mp4 */; };
+		888E13771C8996F60090BE99 /* RearDF-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13751C8996F60090BE99 /* RearDF-Side-021316.mp4 */; };
+		888E137A1C8997160090BE99 /* 8gKtwXXYsgFuo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13781C8997160090BE99 /* 8gKtwXXYsgFuo.mp4 */; };
+		888E137B1C8997160090BE99 /* LEEakEn1EZQoE.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13791C8997160090BE99 /* LEEakEn1EZQoE.mp4 */; };
+		888E137E1C89992C0090BE99 /* IFTrnqjHb35gk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E137D1C89992C0090BE99 /* IFTrnqjHb35gk.mp4 */; };
+		888E13801C8999450090BE99 /* zbt9y6Qp0SPsY.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E137F1C8999450090BE99 /* zbt9y6Qp0SPsY.mp4 */; };
+		888E13821C899AAD0090BE99 /* Bicep Curl Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13811C899AAD0090BE99 /* Bicep Curl Front.mp4 */; };
+		888E13841C899AC20090BE99 /* Bicep Curl Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13831C899AC20090BE99 /* Bicep Curl Side.mp4 */; };
+		888E13861C899B590090BE99 /* Bicep Hammer Curl Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13851C899B590090BE99 /* Bicep Hammer Curl Front.mp4 */; };
+		888E13881C899B6E0090BE99 /* Bicep Hammer Curl Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13871C899B6E0090BE99 /* Bicep Hammer Curl Side.mp4 */; };
+		888E138B1C89CC4A0090BE99 /* Crunch Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E138A1C89CC4A0090BE99 /* Crunch Front.mp4 */; };
+		888E138D1C89CC560090BE99 /* Crunch Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E138C1C89CC560090BE99 /* Crunch Side.mp4 */; };
+		888E138F1C89CC9B0090BE99 /* Hanging Leg Raises Side 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E138E1C89CC9B0090BE99 /* Hanging Leg Raises Side 2.mp4 */; };
+		888E13911C89CCE00090BE99 /* Hanging Leg Raises Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13901C89CCE00090BE99 /* Hanging Leg Raises Side.mp4 */; };
+		888E13931C89CD540090BE99 /* Leg Raise Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13921C89CD540090BE99 /* Leg Raise Side.mp4 */; };
+		888E13951C89CD900090BE99 /* Plank Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13941C89CD900090BE99 /* Plank Side.mp4 */; };
+		888E13971C89CDCE0090BE99 /* plank-static.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13961C89CDCE0090BE99 /* plank-static.mp4 */; };
+		888E139A1C89CDF70090BE99 /* AbRoller-Front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13981C89CDF70090BE99 /* AbRoller-Front-021316.mp4 */; };
+		888E139B1C89CDF70090BE99 /* AbRoller-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13991C89CDF70090BE99 /* AbRoller-Side-021316.mp4 */; };
+		888E139D1C89CE770090BE99 /* Leg Raise Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E139C1C89CE770090BE99 /* Leg Raise Front.mp4 */; };
+		888E13A01C89D1470090BE99 /* Barbell Wrist Curls Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E139F1C89D1470090BE99 /* Barbell Wrist Curls Front.mp4 */; };
+		888E13A21C89D1980090BE99 /* RV-Curl Forarms-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13A11C89D1980090BE99 /* RV-Curl Forarms-Side-021316.mp4 */; };
+		888E13A41C89D1C60090BE99 /* Forearm Curls Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13A31C89D1C60090BE99 /* Forearm Curls Front.mp4 */; };
+		888E13A61C89D2340090BE99 /* Forearm Curls Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13A51C89D2340090BE99 /* Forearm Curls Side.mp4 */; };
+		888E13AA1C89D3970090BE99 /* Squat Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13A81C89D3970090BE99 /* Squat Front.mp4 */; };
+		888E13AB1C89D3970090BE99 /* Squat Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13A91C89D3970090BE99 /* Squat Side.mp4 */; };
+		888E13AD1C89D4030090BE99 /* Leg Extensions Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13AC1C89D4030090BE99 /* Leg Extensions Front.mp4 */; };
+		888E13AF1C89D4E70090BE99 /* Leg Extensions Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13AE1C89D4E70090BE99 /* Leg Extensions Side.mp4 */; };
+		888E13B11C89D9740090BE99 /* Goblet Squat Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13B01C89D9740090BE99 /* Goblet Squat Front.mp4 */; };
+		888E13B31C89DC8D0090BE99 /* Goblet Squat Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13B21C89DC8D0090BE99 /* Goblet Squat Side.mp4 */; };
+		888E13B61C89E5C00090BE99 /* Standing Calf Raises.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13B51C89E5C00090BE99 /* Standing Calf Raises.mp4 */; };
+		888E13B81C89E5EB0090BE99 /* Standing Calf Raises Wide.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13B71C89E5EB0090BE99 /* Standing Calf Raises Wide.mp4 */; };
+		888E13BA1C89E6240090BE99 /* Calf Raises Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13B91C89E6240090BE99 /* Calf Raises Front.mp4 */; };
+		888E13BC1C89E6580090BE99 /* Calf Raises Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13BB1C89E6580090BE99 /* Calf Raises Side.mp4 */; };
+		888E13BF1C89F00E0090BE99 /* Deadlift Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13BE1C89F00E0090BE99 /* Deadlift Front.mp4 */; };
+		888E13C11C89F0250090BE99 /* Deadlift Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13C01C89F0250090BE99 /* Deadlift Side.mp4 */; };
+		888E13C51C89F0740090BE99 /* Neutral Grip Pull Downs Rear.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13C41C89F0740090BE99 /* Neutral Grip Pull Downs Rear.mp4 */; };
+		888E13C71C89F0970090BE99 /* Neutral Grip Pull Downs Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13C61C89F0970090BE99 /* Neutral Grip Pull Downs Front.mp4 */; };
+		888E13C91C89F0C00090BE99 /* Seated Cable Row Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13C81C89F0C00090BE99 /* Seated Cable Row Side.mp4 */; };
+		888E13CB1C89F0E60090BE99 /* SeatedCableRow-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13CA1C89F0E60090BE99 /* SeatedCableRow-Side-021316.mp4 */; };
+		888E13CE1C89F11E0090BE99 /* Single Dumbbell Row Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13CC1C89F11E0090BE99 /* Single Dumbbell Row Front.mp4 */; };
+		888E13CF1C89F11E0090BE99 /* Single Dumbbell Row Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13CD1C89F11E0090BE99 /* Single Dumbbell Row Side.mp4 */; };
+		888E13D71C89F25D0090BE99 /* CablePulldowns-Back-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13D11C89F25D0090BE99 /* CablePulldowns-Back-021316.mp4 */; };
+		888E13D81C89F25D0090BE99 /* CablePulldowns-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13D21C89F25D0090BE99 /* CablePulldowns-Side-021316.mp4 */; };
+		888E13D91C89F25D0090BE99 /* DipsNarrow-front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13D31C89F25D0090BE99 /* DipsNarrow-front-021316.mp4 */; };
+		888E13DA1C89F25D0090BE99 /* DipsNarrow-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13D41C89F25D0090BE99 /* DipsNarrow-Side-021316.mp4 */; };
+		888E13DB1C89F25D0090BE99 /* TricepExtensions-Front-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13D51C89F25D0090BE99 /* TricepExtensions-Front-021316.mp4 */; };
+		888E13DC1C89F25D0090BE99 /* TricepExtensions-Side-021316.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13D61C89F25D0090BE99 /* TricepExtensions-Side-021316.mp4 */; };
+		888E13DF1C89F3810090BE99 /* 45 Degree Extensions Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13DE1C89F3810090BE99 /* 45 Degree Extensions Front.mp4 */; };
+		888E13E11C89F3920090BE99 /* 45 Degree Extensions Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13E01C89F3920090BE99 /* 45 Degree Extensions Side.mp4 */; };
+		888E13E41C89F4AD0090BE99 /* Glute Bridge Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13E31C89F4AD0090BE99 /* Glute Bridge Front.mp4 */; };
+		888E13E61C89F4BD0090BE99 /* Glute Bridge Side.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13E51C89F4BD0090BE99 /* Glute Bridge Side.mp4 */; };
+		888E13E81C89F4E60090BE99 /* Glute Barbell Hip Thrusts.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13E71C89F4E60090BE99 /* Glute Barbell Hip Thrusts.mp4 */; };
+		888E13EA1C89F4F20090BE99 /* Glute Barbell Hip Thrusts Front.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 888E13E91C89F4F20090BE99 /* Glute Barbell Hip Thrusts Front.mp4 */; };
+		888E13EE1C8A90870090BE99 /* ExerciseTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E13EC1C8A90870090BE99 /* ExerciseTitleTableViewCell.swift */; };
+		888E13EF1C8A90870090BE99 /* ExerciseTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888E13ED1C8A90870090BE99 /* ExerciseTitleTableViewCell.xib */; };
+		888E13F21C8A94340090BE99 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888E13F41C8A94340090BE99 /* Data.plist */; };
+		888E13F71C8A99DF0090BE99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888E13F61C8A99DF0090BE99 /* Localizable.strings */; };
+		88A3059D1C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A305931C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift */; };
+		88A3059E1C886E1B009AB0B8 /* ExerciseStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A305941C886E1B009AB0B8 /* ExerciseStep.swift */; };
+		88A3059F1C886E1B009AB0B8 /* Muscle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A305951C886E1B009AB0B8 /* Muscle+CoreDataProperties.swift */; };
+		88A305A01C886E1B009AB0B8 /* Muscle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A305961C886E1B009AB0B8 /* Muscle.swift */; };
+		88A305A31C886E1B009AB0B8 /* Button+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A305991C886E1B009AB0B8 /* Button+CoreDataProperties.swift */; };
+		88A305A41C886E1B009AB0B8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3059A1C886E1B009AB0B8 /* Button.swift */; };
+		88A305A51C886E1B009AB0B8 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3059B1C886E1B009AB0B8 /* Exercise+CoreDataProperties.swift */; };
+		88A305A61C886E1B009AB0B8 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A3059C1C886E1B009AB0B8 /* Exercise.swift */; };
 		88C3C1E51C883FDD007EF0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C1E41C883FDD007EF0F9 /* AppDelegate.swift */; };
 		88C3C1E71C883FDD007EF0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C1E61C883FDD007EF0F9 /* ViewController.swift */; };
 		88C3C1EA1C883FDD007EF0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3C1E81C883FDD007EF0F9 /* Main.storyboard */; };
@@ -15,6 +106,7 @@
 		88C3C1F21C883FDD007EF0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3C1F01C883FDD007EF0F9 /* LaunchScreen.storyboard */; };
 		88C3C1FD1C883FDD007EF0F9 /* MuscleWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C1FC1C883FDD007EF0F9 /* MuscleWikiTests.swift */; };
 		88C3C2081C883FDD007EF0F9 /* MuscleWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C2071C883FDD007EF0F9 /* MuscleWikiUITests.swift */; };
+		E22C3025012D3E9E1F6582A9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B226AC02BBCD3DEDDE57D820 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +127,102 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		311DF5C7214755C05E255456 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		888E13351C888E1D0090BE99 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		888E133A1C8892800090BE99 /* MuscleSummaryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuscleSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		888E133D1C88969F0090BE99 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		888E13401C889D550090BE99 /* ExerciseStepTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStepTableViewCell.swift; sourceTree = "<group>"; };
+		888E13431C88A9870090BE99 /* ExercisesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesTableViewCell.swift; sourceTree = "<group>"; };
+		888E13471C8965C60090BE99 /* Chest Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chest Front.mp4"; sourceTree = "<group>"; };
+		888E13491C8965F00090BE99 /* Chest Side v2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chest Side v2.mp4"; sourceTree = "<group>"; };
+		888E134B1C89666F0090BE99 /* Front Dips Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Front Dips Side.mp4"; sourceTree = "<group>"; };
+		888E134D1C897A430090BE99 /* ChestDips-Front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChestDips-Front-021316.mp4"; sourceTree = "<group>"; };
+		888E134F1C897BBA0090BE99 /* DumbellCP-Front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DumbellCP-Front-021316.mp4"; sourceTree = "<group>"; };
+		888E13511C89803B0090BE99 /* DumbbellCP-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DumbbellCP-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13531C89807F0090BE99 /* Flyes-Front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flyes-Front-021316.mp4"; sourceTree = "<group>"; };
+		888E13541C89807F0090BE99 /* Flyes-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flyes-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13571C8981710090BE99 /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		888E13581C8981710090BE99 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		888E135C1C8983160090BE99 /* ExerciseVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseVideoTableViewCell.swift; sourceTree = "<group>"; };
+		888E135E1C8983340090BE99 /* ExerciseVideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseVideoTableViewCell.xib; sourceTree = "<group>"; };
+		888E13601C8987790090BE99 /* MuscleWiki 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MuscleWiki 2.xcdatamodel"; sourceTree = "<group>"; };
+		888E13621C898F170090BE99 /* Trap Raises Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trap Raises Front.mp4"; sourceTree = "<group>"; };
+		888E13641C898F410090BE99 /* Trap Raises Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trap Raises Side.mp4"; sourceTree = "<group>"; };
+		888E13661C898FC20090BE99 /* Standing Smith Machine Shrugs Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Standing Smith Machine Shrugs Front.mp4"; sourceTree = "<group>"; };
+		888E13691C8993D50090BE99 /* MuscleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuscleButton.swift; sourceTree = "<group>"; };
+		888E136C1C8996AA0090BE99 /* ShoulderPress-Front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShoulderPress-Front-021316.mp4"; sourceTree = "<group>"; };
+		888E136D1C8996AA0090BE99 /* ShoulderPress-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShoulderPress-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13701C8996D20090BE99 /* SideLateralRaise-Front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SideLateralRaise-Front-021316.mp4"; sourceTree = "<group>"; };
+		888E13711C8996D20090BE99 /* SideLateralRaise-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SideLateralRaise-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13741C8996F60090BE99 /* RearDF-Front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RearDF-Front-021316.mp4"; sourceTree = "<group>"; };
+		888E13751C8996F60090BE99 /* RearDF-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RearDF-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13781C8997160090BE99 /* 8gKtwXXYsgFuo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8gKtwXXYsgFuo.mp4; sourceTree = "<group>"; };
+		888E13791C8997160090BE99 /* LEEakEn1EZQoE.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LEEakEn1EZQoE.mp4; sourceTree = "<group>"; };
+		888E137D1C89992C0090BE99 /* IFTrnqjHb35gk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IFTrnqjHb35gk.mp4; sourceTree = "<group>"; };
+		888E137F1C8999450090BE99 /* zbt9y6Qp0SPsY.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zbt9y6Qp0SPsY.mp4; sourceTree = "<group>"; };
+		888E13811C899AAD0090BE99 /* Bicep Curl Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bicep Curl Front.mp4"; sourceTree = "<group>"; };
+		888E13831C899AC20090BE99 /* Bicep Curl Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bicep Curl Side.mp4"; sourceTree = "<group>"; };
+		888E13851C899B590090BE99 /* Bicep Hammer Curl Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bicep Hammer Curl Front.mp4"; sourceTree = "<group>"; };
+		888E13871C899B6E0090BE99 /* Bicep Hammer Curl Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bicep Hammer Curl Side.mp4"; sourceTree = "<group>"; };
+		888E138A1C89CC4A0090BE99 /* Crunch Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crunch Front.mp4"; sourceTree = "<group>"; };
+		888E138C1C89CC560090BE99 /* Crunch Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crunch Side.mp4"; sourceTree = "<group>"; };
+		888E138E1C89CC9B0090BE99 /* Hanging Leg Raises Side 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hanging Leg Raises Side 2.mp4"; sourceTree = "<group>"; };
+		888E13901C89CCE00090BE99 /* Hanging Leg Raises Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hanging Leg Raises Side.mp4"; sourceTree = "<group>"; };
+		888E13921C89CD540090BE99 /* Leg Raise Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Leg Raise Side.mp4"; sourceTree = "<group>"; };
+		888E13941C89CD900090BE99 /* Plank Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Plank Side.mp4"; sourceTree = "<group>"; };
+		888E13961C89CDCE0090BE99 /* plank-static.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "plank-static.mp4"; sourceTree = "<group>"; };
+		888E13981C89CDF70090BE99 /* AbRoller-Front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbRoller-Front-021316.mp4"; sourceTree = "<group>"; };
+		888E13991C89CDF70090BE99 /* AbRoller-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbRoller-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E139C1C89CE770090BE99 /* Leg Raise Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Leg Raise Front.mp4"; sourceTree = "<group>"; };
+		888E139F1C89D1470090BE99 /* Barbell Wrist Curls Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barbell Wrist Curls Front.mp4"; sourceTree = "<group>"; };
+		888E13A11C89D1980090BE99 /* RV-Curl Forarms-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RV-Curl Forarms-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13A31C89D1C60090BE99 /* Forearm Curls Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Forearm Curls Front.mp4"; sourceTree = "<group>"; };
+		888E13A51C89D2340090BE99 /* Forearm Curls Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Forearm Curls Side.mp4"; sourceTree = "<group>"; };
+		888E13A81C89D3970090BE99 /* Squat Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Squat Front.mp4"; sourceTree = "<group>"; };
+		888E13A91C89D3970090BE99 /* Squat Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Squat Side.mp4"; sourceTree = "<group>"; };
+		888E13AC1C89D4030090BE99 /* Leg Extensions Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Leg Extensions Front.mp4"; sourceTree = "<group>"; };
+		888E13AE1C89D4E70090BE99 /* Leg Extensions Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Leg Extensions Side.mp4"; sourceTree = "<group>"; };
+		888E13B01C89D9740090BE99 /* Goblet Squat Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goblet Squat Front.mp4"; sourceTree = "<group>"; };
+		888E13B21C89DC8D0090BE99 /* Goblet Squat Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goblet Squat Side.mp4"; sourceTree = "<group>"; };
+		888E13B51C89E5C00090BE99 /* Standing Calf Raises.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Standing Calf Raises.mp4"; sourceTree = "<group>"; };
+		888E13B71C89E5EB0090BE99 /* Standing Calf Raises Wide.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Standing Calf Raises Wide.mp4"; sourceTree = "<group>"; };
+		888E13B91C89E6240090BE99 /* Calf Raises Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calf Raises Front.mp4"; sourceTree = "<group>"; };
+		888E13BB1C89E6580090BE99 /* Calf Raises Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calf Raises Side.mp4"; sourceTree = "<group>"; };
+		888E13BE1C89F00E0090BE99 /* Deadlift Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deadlift Front.mp4"; sourceTree = "<group>"; };
+		888E13C01C89F0250090BE99 /* Deadlift Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deadlift Side.mp4"; sourceTree = "<group>"; };
+		888E13C41C89F0740090BE99 /* Neutral Grip Pull Downs Rear.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neutral Grip Pull Downs Rear.mp4"; sourceTree = "<group>"; };
+		888E13C61C89F0970090BE99 /* Neutral Grip Pull Downs Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neutral Grip Pull Downs Front.mp4"; sourceTree = "<group>"; };
+		888E13C81C89F0C00090BE99 /* Seated Cable Row Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seated Cable Row Side.mp4"; sourceTree = "<group>"; };
+		888E13CA1C89F0E60090BE99 /* SeatedCableRow-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SeatedCableRow-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13CC1C89F11E0090BE99 /* Single Dumbbell Row Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Single Dumbbell Row Front.mp4"; sourceTree = "<group>"; };
+		888E13CD1C89F11E0090BE99 /* Single Dumbbell Row Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Single Dumbbell Row Side.mp4"; sourceTree = "<group>"; };
+		888E13D11C89F25D0090BE99 /* CablePulldowns-Back-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CablePulldowns-Back-021316.mp4"; sourceTree = "<group>"; };
+		888E13D21C89F25D0090BE99 /* CablePulldowns-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CablePulldowns-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13D31C89F25D0090BE99 /* DipsNarrow-front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DipsNarrow-front-021316.mp4"; sourceTree = "<group>"; };
+		888E13D41C89F25D0090BE99 /* DipsNarrow-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DipsNarrow-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13D51C89F25D0090BE99 /* TricepExtensions-Front-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TricepExtensions-Front-021316.mp4"; sourceTree = "<group>"; };
+		888E13D61C89F25D0090BE99 /* TricepExtensions-Side-021316.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TricepExtensions-Side-021316.mp4"; sourceTree = "<group>"; };
+		888E13DE1C89F3810090BE99 /* 45 Degree Extensions Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "45 Degree Extensions Front.mp4"; sourceTree = "<group>"; };
+		888E13E01C89F3920090BE99 /* 45 Degree Extensions Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "45 Degree Extensions Side.mp4"; sourceTree = "<group>"; };
+		888E13E31C89F4AD0090BE99 /* Glute Bridge Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Glute Bridge Front.mp4"; sourceTree = "<group>"; };
+		888E13E51C89F4BD0090BE99 /* Glute Bridge Side.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Glute Bridge Side.mp4"; sourceTree = "<group>"; };
+		888E13E71C89F4E60090BE99 /* Glute Barbell Hip Thrusts.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Glute Barbell Hip Thrusts.mp4"; sourceTree = "<group>"; };
+		888E13E91C89F4F20090BE99 /* Glute Barbell Hip Thrusts Front.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Glute Barbell Hip Thrusts Front.mp4"; sourceTree = "<group>"; };
+		888E13EC1C8A90870090BE99 /* ExerciseTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTitleTableViewCell.swift; sourceTree = "<group>"; };
+		888E13ED1C8A90870090BE99 /* ExerciseTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseTitleTableViewCell.xib; sourceTree = "<group>"; };
+		888E13F01C8A94080090BE99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		888E13F11C8A94080090BE99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		888E13F31C8A94340090BE99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Data.plist"; sourceTree = "<group>"; };
+		888E13F51C8A943B0090BE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Data.plist; sourceTree = "<group>"; };
+		888E13F61C8A99DF0090BE99 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		88A305931C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseStep+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88A305941C886E1B009AB0B8 /* ExerciseStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStep.swift; sourceTree = "<group>"; };
+		88A305951C886E1B009AB0B8 /* Muscle+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Muscle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88A305961C886E1B009AB0B8 /* Muscle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Muscle.swift; sourceTree = "<group>"; };
+		88A305991C886E1B009AB0B8 /* Button+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88A3059A1C886E1B009AB0B8 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		88A3059B1C886E1B009AB0B8 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88A3059C1C886E1B009AB0B8 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		88C3C1E11C883FDD007EF0F9 /* MuscleWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuscleWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3C1E41C883FDD007EF0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88C3C1E61C883FDD007EF0F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +237,8 @@
 		88C3C2031C883FDD007EF0F9 /* MuscleWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3C2071C883FDD007EF0F9 /* MuscleWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleWikiUITests.swift; sourceTree = "<group>"; };
 		88C3C2091C883FDD007EF0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B226AC02BBCD3DEDDE57D820 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E9D9025CA0FD7064B3944E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +246,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22C3025012D3E9E1F6582A9 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +267,324 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4723DBF977F90B7CD9CB8169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				311DF5C7214755C05E255456 /* Pods.debug.xcconfig */,
+				C3E9D9025CA0FD7064B3944E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		888E13321C888DEE0090BE99 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				888E13341C888E010090BE99 /* ExerciseViewController */,
+				888E13331C888DF50090BE99 /* ViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		888E13331C888DF50090BE99 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88C3C1E61C883FDD007EF0F9 /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		888E13341C888E010090BE99 /* ExerciseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				888E13351C888E1D0090BE99 /* ExerciseViewController.swift */,
+			);
+			name = ExerciseViewController;
+			sourceTree = "<group>";
+		};
+		888E13371C8892260090BE99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				888E13681C8993BB0090BE99 /* Buttons */,
+				888E13381C88922D0090BE99 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		888E13381C88922D0090BE99 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				888E13EB1C8A90680090BE99 /* ExerciseTitle */,
+				888E135B1C8983010090BE99 /* ExerciseVideo */,
+				888E13421C88A9720090BE99 /* Exercises */,
+				888E133F1C889D480090BE99 /* ExerciseStep */,
+				888E133C1C8896910090BE99 /* Exercise */,
+				888E13391C88923B0090BE99 /* MuscleSummary */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		888E13391C88923B0090BE99 /* MuscleSummary */ = {
+			isa = PBXGroup;
+			children = (
+				888E133A1C8892800090BE99 /* MuscleSummaryTableViewCell.swift */,
+			);
+			name = MuscleSummary;
+			sourceTree = "<group>";
+		};
+		888E133C1C8896910090BE99 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				888E133D1C88969F0090BE99 /* ExerciseTableViewCell.swift */,
+			);
+			name = Exercise;
+			sourceTree = "<group>";
+		};
+		888E133F1C889D480090BE99 /* ExerciseStep */ = {
+			isa = PBXGroup;
+			children = (
+				888E13401C889D550090BE99 /* ExerciseStepTableViewCell.swift */,
+			);
+			name = ExerciseStep;
+			sourceTree = "<group>";
+		};
+		888E13421C88A9720090BE99 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				888E13431C88A9870090BE99 /* ExercisesTableViewCell.swift */,
+			);
+			name = Exercises;
+			sourceTree = "<group>";
+		};
+		888E13451C89656D0090BE99 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				888E13E21C89F49F0090BE99 /* Glutes */,
+				888E13DD1C89F3740090BE99 /* Lowerback */,
+				888E13D01C89F2120090BE99 /* Triceps */,
+				888E13BD1C89F0050090BE99 /* Back */,
+				888E13B41C89E4270090BE99 /* Claves */,
+				888E13A71C89D28A0090BE99 /* Quads */,
+				888E139E1C89D0D60090BE99 /* Forearms */,
+				888E13891C89CBF70090BE99 /* Abdominals */,
+				888E137C1C8998CF0090BE99 /* Bicep */,
+				888E136B1C8995D10090BE99 /* Shoulders */,
+				888E13611C898EED0090BE99 /* Traps */,
+				888E13461C8965BD0090BE99 /* Chest */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+		888E13461C8965BD0090BE99 /* Chest */ = {
+			isa = PBXGroup;
+			children = (
+				888E13471C8965C60090BE99 /* Chest Front.mp4 */,
+				888E13491C8965F00090BE99 /* Chest Side v2.mp4 */,
+				888E134B1C89666F0090BE99 /* Front Dips Side.mp4 */,
+				888E134D1C897A430090BE99 /* ChestDips-Front-021316.mp4 */,
+				888E134F1C897BBA0090BE99 /* DumbellCP-Front-021316.mp4 */,
+				888E13511C89803B0090BE99 /* DumbbellCP-Side-021316.mp4 */,
+				888E13531C89807F0090BE99 /* Flyes-Front-021316.mp4 */,
+				888E13541C89807F0090BE99 /* Flyes-Side-021316.mp4 */,
+			);
+			name = Chest;
+			sourceTree = "<group>";
+		};
+		888E135B1C8983010090BE99 /* ExerciseVideo */ = {
+			isa = PBXGroup;
+			children = (
+				888E135C1C8983160090BE99 /* ExerciseVideoTableViewCell.swift */,
+				888E135E1C8983340090BE99 /* ExerciseVideoTableViewCell.xib */,
+			);
+			name = ExerciseVideo;
+			sourceTree = "<group>";
+		};
+		888E13611C898EED0090BE99 /* Traps */ = {
+			isa = PBXGroup;
+			children = (
+				888E13621C898F170090BE99 /* Trap Raises Front.mp4 */,
+				888E13641C898F410090BE99 /* Trap Raises Side.mp4 */,
+				888E13661C898FC20090BE99 /* Standing Smith Machine Shrugs Front.mp4 */,
+			);
+			name = Traps;
+			sourceTree = "<group>";
+		};
+		888E13681C8993BB0090BE99 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				888E13691C8993D50090BE99 /* MuscleButton.swift */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		888E136B1C8995D10090BE99 /* Shoulders */ = {
+			isa = PBXGroup;
+			children = (
+				888E136C1C8996AA0090BE99 /* ShoulderPress-Front-021316.mp4 */,
+				888E136D1C8996AA0090BE99 /* ShoulderPress-Side-021316.mp4 */,
+				888E13701C8996D20090BE99 /* SideLateralRaise-Front-021316.mp4 */,
+				888E13711C8996D20090BE99 /* SideLateralRaise-Side-021316.mp4 */,
+				888E13741C8996F60090BE99 /* RearDF-Front-021316.mp4 */,
+				888E13751C8996F60090BE99 /* RearDF-Side-021316.mp4 */,
+				888E13781C8997160090BE99 /* 8gKtwXXYsgFuo.mp4 */,
+				888E13791C8997160090BE99 /* LEEakEn1EZQoE.mp4 */,
+			);
+			name = Shoulders;
+			sourceTree = "<group>";
+		};
+		888E137C1C8998CF0090BE99 /* Bicep */ = {
+			isa = PBXGroup;
+			children = (
+				888E137D1C89992C0090BE99 /* IFTrnqjHb35gk.mp4 */,
+				888E137F1C8999450090BE99 /* zbt9y6Qp0SPsY.mp4 */,
+				888E13811C899AAD0090BE99 /* Bicep Curl Front.mp4 */,
+				888E13831C899AC20090BE99 /* Bicep Curl Side.mp4 */,
+				888E13851C899B590090BE99 /* Bicep Hammer Curl Front.mp4 */,
+				888E13871C899B6E0090BE99 /* Bicep Hammer Curl Side.mp4 */,
+			);
+			name = Bicep;
+			sourceTree = "<group>";
+		};
+		888E13891C89CBF70090BE99 /* Abdominals */ = {
+			isa = PBXGroup;
+			children = (
+				888E138A1C89CC4A0090BE99 /* Crunch Front.mp4 */,
+				888E138C1C89CC560090BE99 /* Crunch Side.mp4 */,
+				888E138E1C89CC9B0090BE99 /* Hanging Leg Raises Side 2.mp4 */,
+				888E13901C89CCE00090BE99 /* Hanging Leg Raises Side.mp4 */,
+				888E13921C89CD540090BE99 /* Leg Raise Side.mp4 */,
+				888E139C1C89CE770090BE99 /* Leg Raise Front.mp4 */,
+				888E13941C89CD900090BE99 /* Plank Side.mp4 */,
+				888E13961C89CDCE0090BE99 /* plank-static.mp4 */,
+				888E13981C89CDF70090BE99 /* AbRoller-Front-021316.mp4 */,
+				888E13991C89CDF70090BE99 /* AbRoller-Side-021316.mp4 */,
+			);
+			name = Abdominals;
+			sourceTree = "<group>";
+		};
+		888E139E1C89D0D60090BE99 /* Forearms */ = {
+			isa = PBXGroup;
+			children = (
+				888E139F1C89D1470090BE99 /* Barbell Wrist Curls Front.mp4 */,
+				888E13A11C89D1980090BE99 /* RV-Curl Forarms-Side-021316.mp4 */,
+				888E13A31C89D1C60090BE99 /* Forearm Curls Front.mp4 */,
+				888E13A51C89D2340090BE99 /* Forearm Curls Side.mp4 */,
+			);
+			name = Forearms;
+			sourceTree = "<group>";
+		};
+		888E13A71C89D28A0090BE99 /* Quads */ = {
+			isa = PBXGroup;
+			children = (
+				888E13A81C89D3970090BE99 /* Squat Front.mp4 */,
+				888E13A91C89D3970090BE99 /* Squat Side.mp4 */,
+				888E13AC1C89D4030090BE99 /* Leg Extensions Front.mp4 */,
+				888E13AE1C89D4E70090BE99 /* Leg Extensions Side.mp4 */,
+				888E13B01C89D9740090BE99 /* Goblet Squat Front.mp4 */,
+				888E13B21C89DC8D0090BE99 /* Goblet Squat Side.mp4 */,
+			);
+			name = Quads;
+			sourceTree = "<group>";
+		};
+		888E13B41C89E4270090BE99 /* Claves */ = {
+			isa = PBXGroup;
+			children = (
+				888E13B51C89E5C00090BE99 /* Standing Calf Raises.mp4 */,
+				888E13B71C89E5EB0090BE99 /* Standing Calf Raises Wide.mp4 */,
+				888E13B91C89E6240090BE99 /* Calf Raises Front.mp4 */,
+				888E13BB1C89E6580090BE99 /* Calf Raises Side.mp4 */,
+			);
+			name = Claves;
+			sourceTree = "<group>";
+		};
+		888E13BD1C89F0050090BE99 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				888E13BE1C89F00E0090BE99 /* Deadlift Front.mp4 */,
+				888E13C01C89F0250090BE99 /* Deadlift Side.mp4 */,
+				888E13C41C89F0740090BE99 /* Neutral Grip Pull Downs Rear.mp4 */,
+				888E13C61C89F0970090BE99 /* Neutral Grip Pull Downs Front.mp4 */,
+				888E13C81C89F0C00090BE99 /* Seated Cable Row Side.mp4 */,
+				888E13CA1C89F0E60090BE99 /* SeatedCableRow-Side-021316.mp4 */,
+				888E13CC1C89F11E0090BE99 /* Single Dumbbell Row Front.mp4 */,
+				888E13CD1C89F11E0090BE99 /* Single Dumbbell Row Side.mp4 */,
+			);
+			name = Back;
+			sourceTree = "<group>";
+		};
+		888E13D01C89F2120090BE99 /* Triceps */ = {
+			isa = PBXGroup;
+			children = (
+				888E13D11C89F25D0090BE99 /* CablePulldowns-Back-021316.mp4 */,
+				888E13D21C89F25D0090BE99 /* CablePulldowns-Side-021316.mp4 */,
+				888E13D31C89F25D0090BE99 /* DipsNarrow-front-021316.mp4 */,
+				888E13D41C89F25D0090BE99 /* DipsNarrow-Side-021316.mp4 */,
+				888E13D51C89F25D0090BE99 /* TricepExtensions-Front-021316.mp4 */,
+				888E13D61C89F25D0090BE99 /* TricepExtensions-Side-021316.mp4 */,
+			);
+			name = Triceps;
+			sourceTree = "<group>";
+		};
+		888E13DD1C89F3740090BE99 /* Lowerback */ = {
+			isa = PBXGroup;
+			children = (
+				888E13DE1C89F3810090BE99 /* 45 Degree Extensions Front.mp4 */,
+				888E13E01C89F3920090BE99 /* 45 Degree Extensions Side.mp4 */,
+			);
+			name = Lowerback;
+			sourceTree = "<group>";
+		};
+		888E13E21C89F49F0090BE99 /* Glutes */ = {
+			isa = PBXGroup;
+			children = (
+				888E13E31C89F4AD0090BE99 /* Glute Bridge Front.mp4 */,
+				888E13E51C89F4BD0090BE99 /* Glute Bridge Side.mp4 */,
+				888E13E71C89F4E60090BE99 /* Glute Barbell Hip Thrusts.mp4 */,
+				888E13E91C89F4F20090BE99 /* Glute Barbell Hip Thrusts Front.mp4 */,
+			);
+			name = Glutes;
+			sourceTree = "<group>";
+		};
+		888E13EB1C8A90680090BE99 /* ExerciseTitle */ = {
+			isa = PBXGroup;
+			children = (
+				888E13EC1C8A90870090BE99 /* ExerciseTitleTableViewCell.swift */,
+				888E13ED1C8A90870090BE99 /* ExerciseTitleTableViewCell.xib */,
+			);
+			name = ExerciseTitle;
+			sourceTree = "<group>";
+		};
+		88A305901C8861F8009AB0B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88A305911C886205009AB0B8 /* Buttons */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		88A305911C886205009AB0B8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		88A305921C886DF2009AB0B8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				888E13571C8981710090BE99 /* Video+CoreDataProperties.swift */,
+				888E13581C8981710090BE99 /* Video.swift */,
+				88A305931C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift */,
+				88A305941C886E1B009AB0B8 /* ExerciseStep.swift */,
+				88A305951C886E1B009AB0B8 /* Muscle+CoreDataProperties.swift */,
+				88A305961C886E1B009AB0B8 /* Muscle.swift */,
+				88A305991C886E1B009AB0B8 /* Button+CoreDataProperties.swift */,
+				88A3059A1C886E1B009AB0B8 /* Button.swift */,
+				88A3059B1C886E1B009AB0B8 /* Exercise+CoreDataProperties.swift */,
+				88A3059C1C886E1B009AB0B8 /* Exercise.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		88C3C1D81C883FDD007EF0F9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +592,8 @@
 				88C3C1FB1C883FDD007EF0F9 /* MuscleWikiTests */,
 				88C3C2061C883FDD007EF0F9 /* MuscleWikiUITests */,
 				88C3C1E21C883FDD007EF0F9 /* Products */,
+				4723DBF977F90B7CD9CB8169 /* Pods */,
+				CD38F8BE9BD996DC7F34A15E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +610,19 @@
 		88C3C1E31C883FDD007EF0F9 /* MuscleWiki */ = {
 			isa = PBXGroup;
 			children = (
+				888E13451C89656D0090BE99 /* Videos */,
+				888E13371C8892260090BE99 /* Views */,
+				888E13321C888DEE0090BE99 /* ViewControllers */,
+				88A305921C886DF2009AB0B8 /* CoreData */,
+				88A305901C8861F8009AB0B8 /* Views */,
 				88C3C1E41C883FDD007EF0F9 /* AppDelegate.swift */,
-				88C3C1E61C883FDD007EF0F9 /* ViewController.swift */,
 				88C3C1E81C883FDD007EF0F9 /* Main.storyboard */,
 				88C3C1EE1C883FDD007EF0F9 /* Assets.xcassets */,
 				88C3C1F01C883FDD007EF0F9 /* LaunchScreen.storyboard */,
 				88C3C1F31C883FDD007EF0F9 /* Info.plist */,
 				88C3C1EB1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld */,
+				888E13F41C8A94340090BE99 /* Data.plist */,
+				888E13F61C8A99DF0090BE99 /* Localizable.strings */,
 			);
 			path = MuscleWiki;
 			sourceTree = "<group>";
@@ -128,6 +645,14 @@
 			path = MuscleWikiUITests;
 			sourceTree = "<group>";
 		};
+		CD38F8BE9BD996DC7F34A15E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B226AC02BBCD3DEDDE57D820 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +660,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88C3C20C1C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWiki" */;
 			buildPhases = (
+				ECFD5C70979ED6BF3DB515A2 /* Check Pods Manifest.lock */,
 				88C3C1DD1C883FDD007EF0F9 /* Sources */,
 				88C3C1DE1C883FDD007EF0F9 /* Frameworks */,
 				88C3C1DF1C883FDD007EF0F9 /* Resources */,
+				49EB3BE885F953A0C1AA89F5 /* Embed Pods Frameworks */,
+				729CEDB05053F2F31D2A91FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +724,7 @@
 				TargetAttributes = {
 					88C3C1E01C883FDD007EF0F9 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = T4TW6Z2N88;
 					};
 					88C3C1F71C883FDD007EF0F9 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -232,9 +761,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888E134C1C89666F0090BE99 /* Front Dips Side.mp4 in Resources */,
+				888E137E1C89992C0090BE99 /* IFTrnqjHb35gk.mp4 in Resources */,
+				888E136F1C8996AA0090BE99 /* ShoulderPress-Side-021316.mp4 in Resources */,
+				888E13861C899B590090BE99 /* Bicep Hammer Curl Front.mp4 in Resources */,
+				888E13731C8996D20090BE99 /* SideLateralRaise-Side-021316.mp4 in Resources */,
+				888E13631C898F170090BE99 /* Trap Raises Front.mp4 in Resources */,
+				888E13EF1C8A90870090BE99 /* ExerciseTitleTableViewCell.xib in Resources */,
+				888E13521C89803B0090BE99 /* DumbbellCP-Side-021316.mp4 in Resources */,
+				888E13A61C89D2340090BE99 /* Forearm Curls Side.mp4 in Resources */,
+				888E13D81C89F25D0090BE99 /* CablePulldowns-Side-021316.mp4 in Resources */,
+				888E139D1C89CE770090BE99 /* Leg Raise Front.mp4 in Resources */,
+				888E13BA1C89E6240090BE99 /* Calf Raises Front.mp4 in Resources */,
 				88C3C1F21C883FDD007EF0F9 /* LaunchScreen.storyboard in Resources */,
+				888E13DA1C89F25D0090BE99 /* DipsNarrow-Side-021316.mp4 in Resources */,
+				888E13651C898F410090BE99 /* Trap Raises Side.mp4 in Resources */,
+				888E136E1C8996AA0090BE99 /* ShoulderPress-Front-021316.mp4 in Resources */,
+				888E13971C89CDCE0090BE99 /* plank-static.mp4 in Resources */,
+				888E13DF1C89F3810090BE99 /* 45 Degree Extensions Front.mp4 in Resources */,
+				888E138B1C89CC4A0090BE99 /* Crunch Front.mp4 in Resources */,
+				888E13CF1C89F11E0090BE99 /* Single Dumbbell Row Side.mp4 in Resources */,
+				888E13AA1C89D3970090BE99 /* Squat Front.mp4 in Resources */,
+				888E138F1C89CC9B0090BE99 /* Hanging Leg Raises Side 2.mp4 in Resources */,
+				888E135F1C8983340090BE99 /* ExerciseVideoTableViewCell.xib in Resources */,
+				888E13CE1C89F11E0090BE99 /* Single Dumbbell Row Front.mp4 in Resources */,
 				88C3C1EF1C883FDD007EF0F9 /* Assets.xcassets in Resources */,
+				888E13BC1C89E6580090BE99 /* Calf Raises Side.mp4 in Resources */,
+				888E13E41C89F4AD0090BE99 /* Glute Bridge Front.mp4 in Resources */,
+				888E13821C899AAD0090BE99 /* Bicep Curl Front.mp4 in Resources */,
+				888E13AF1C89D4E70090BE99 /* Leg Extensions Side.mp4 in Resources */,
+				888E13881C899B6E0090BE99 /* Bicep Hammer Curl Side.mp4 in Resources */,
+				888E13721C8996D20090BE99 /* SideLateralRaise-Front-021316.mp4 in Resources */,
+				888E13DC1C89F25D0090BE99 /* TricepExtensions-Side-021316.mp4 in Resources */,
+				888E13E11C89F3920090BE99 /* 45 Degree Extensions Side.mp4 in Resources */,
+				888E13AD1C89D4030090BE99 /* Leg Extensions Front.mp4 in Resources */,
+				888E13501C897BBA0090BE99 /* DumbellCP-Front-021316.mp4 in Resources */,
+				888E137A1C8997160090BE99 /* 8gKtwXXYsgFuo.mp4 in Resources */,
+				888E13801C8999450090BE99 /* zbt9y6Qp0SPsY.mp4 in Resources */,
+				888E13EA1C89F4F20090BE99 /* Glute Barbell Hip Thrusts Front.mp4 in Resources */,
+				888E13C71C89F0970090BE99 /* Neutral Grip Pull Downs Front.mp4 in Resources */,
+				888E13841C899AC20090BE99 /* Bicep Curl Side.mp4 in Resources */,
+				888E13D91C89F25D0090BE99 /* DipsNarrow-front-021316.mp4 in Resources */,
+				888E13551C89807F0090BE99 /* Flyes-Front-021316.mp4 in Resources */,
+				888E13B31C89DC8D0090BE99 /* Goblet Squat Side.mp4 in Resources */,
+				888E13A41C89D1C60090BE99 /* Forearm Curls Front.mp4 in Resources */,
+				888E13F21C8A94340090BE99 /* Data.plist in Resources */,
+				888E138D1C89CC560090BE99 /* Crunch Side.mp4 in Resources */,
+				888E13C11C89F0250090BE99 /* Deadlift Side.mp4 in Resources */,
+				888E134A1C8965F00090BE99 /* Chest Side v2.mp4 in Resources */,
+				888E13AB1C89D3970090BE99 /* Squat Side.mp4 in Resources */,
+				888E13CB1C89F0E60090BE99 /* SeatedCableRow-Side-021316.mp4 in Resources */,
 				88C3C1EA1C883FDD007EF0F9 /* Main.storyboard in Resources */,
+				888E134E1C897A430090BE99 /* ChestDips-Front-021316.mp4 in Resources */,
+				888E13B11C89D9740090BE99 /* Goblet Squat Front.mp4 in Resources */,
+				888E137B1C8997160090BE99 /* LEEakEn1EZQoE.mp4 in Resources */,
+				888E13A01C89D1470090BE99 /* Barbell Wrist Curls Front.mp4 in Resources */,
+				888E13E81C89F4E60090BE99 /* Glute Barbell Hip Thrusts.mp4 in Resources */,
+				888E13951C89CD900090BE99 /* Plank Side.mp4 in Resources */,
+				888E13481C8965C60090BE99 /* Chest Front.mp4 in Resources */,
+				888E13B61C89E5C00090BE99 /* Standing Calf Raises.mp4 in Resources */,
+				888E13BF1C89F00E0090BE99 /* Deadlift Front.mp4 in Resources */,
+				888E13671C898FC20090BE99 /* Standing Smith Machine Shrugs Front.mp4 in Resources */,
+				888E13DB1C89F25D0090BE99 /* TricepExtensions-Front-021316.mp4 in Resources */,
+				888E13911C89CCE00090BE99 /* Hanging Leg Raises Side.mp4 in Resources */,
+				888E13931C89CD540090BE99 /* Leg Raise Side.mp4 in Resources */,
+				888E13561C89807F0090BE99 /* Flyes-Side-021316.mp4 in Resources */,
+				888E13C51C89F0740090BE99 /* Neutral Grip Pull Downs Rear.mp4 in Resources */,
+				888E13E61C89F4BD0090BE99 /* Glute Bridge Side.mp4 in Resources */,
+				888E13B81C89E5EB0090BE99 /* Standing Calf Raises Wide.mp4 in Resources */,
+				888E139A1C89CDF70090BE99 /* AbRoller-Front-021316.mp4 in Resources */,
+				888E13761C8996F60090BE99 /* RearDF-Front-021316.mp4 in Resources */,
+				888E13A21C89D1980090BE99 /* RV-Curl Forarms-Side-021316.mp4 in Resources */,
+				888E139B1C89CDF70090BE99 /* AbRoller-Side-021316.mp4 in Resources */,
+				888E13D71C89F25D0090BE99 /* CablePulldowns-Back-021316.mp4 in Resources */,
+				888E13F71C8A99DF0090BE99 /* Localizable.strings in Resources */,
+				888E13771C8996F60090BE99 /* RearDF-Side-021316.mp4 in Resources */,
+				888E13C91C89F0C00090BE99 /* Seated Cable Row Side.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +856,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49EB3BE885F953A0C1AA89F5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729CEDB05053F2F31D2A91FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFD5C70979ED6BF3DB515A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88C3C1DD1C883FDD007EF0F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888E133E1C88969F0090BE99 /* ExerciseTableViewCell.swift in Sources */,
 				88C3C1ED1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld in Sources */,
+				888E13411C889D550090BE99 /* ExerciseStepTableViewCell.swift in Sources */,
 				88C3C1E71C883FDD007EF0F9 /* ViewController.swift in Sources */,
+				88A3059E1C886E1B009AB0B8 /* ExerciseStep.swift in Sources */,
 				88C3C1E51C883FDD007EF0F9 /* AppDelegate.swift in Sources */,
+				88A305A51C886E1B009AB0B8 /* Exercise+CoreDataProperties.swift in Sources */,
+				88A305A31C886E1B009AB0B8 /* Button+CoreDataProperties.swift in Sources */,
+				888E135A1C8981710090BE99 /* Video.swift in Sources */,
+				888E136A1C8993D50090BE99 /* MuscleButton.swift in Sources */,
+				88A305A01C886E1B009AB0B8 /* Muscle.swift in Sources */,
+				888E135D1C8983160090BE99 /* ExerciseVideoTableViewCell.swift in Sources */,
+				888E13361C888E1D0090BE99 /* ExerciseViewController.swift in Sources */,
+				888E13441C88A9870090BE99 /* ExercisesTableViewCell.swift in Sources */,
+				88A305A61C886E1B009AB0B8 /* Exercise.swift in Sources */,
+				88A3059F1C886E1B009AB0B8 /* Muscle+CoreDataProperties.swift in Sources */,
+				888E133B1C8892800090BE99 /* MuscleSummaryTableViewCell.swift in Sources */,
+				888E13591C8981710090BE99 /* Video+CoreDataProperties.swift in Sources */,
+				888E13EE1C8A90870090BE99 /* ExerciseTitleTableViewCell.swift in Sources */,
+				88A3059D1C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift in Sources */,
+				88A305A41C886E1B009AB0B8 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +965,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		888E13F41C8A94340090BE99 /* Data.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888E13F31C8A94340090BE99 /* zh-Hans */,
+				888E13F51C8A943B0090BE99 /* Base */,
+			);
+			name = Data.plist;
+			sourceTree = "<group>";
+		};
 		88C3C1E81C883FDD007EF0F9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				88C3C1E91C883FDD007EF0F9 /* Base */,
+				888E13F01C8A94080090BE99 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +987,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				88C3C1F11C883FDD007EF0F9 /* Base */,
+				888E13F11C8A94080090BE99 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -352,7 +1031,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -391,7 +1070,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -401,23 +1080,31 @@
 		};
 		88C3C20D1C883FDD007EF0F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311DF5C7214755C05E255456 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MuscleWiki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		88C3C20E1C883FDD007EF0F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E9D9025CA0FD7064B3944E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MuscleWiki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -488,6 +1175,7 @@
 				88C3C20E1C883FDD007EF0F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88C3C20F1C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWikiTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +1184,7 @@
 				88C3C2111C883FDD007EF0F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88C3C2121C883FDD007EF0F9 /* Build configuration list for PBXNativeTarget "MuscleWikiUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +1193,7 @@
 				88C3C2141C883FDD007EF0F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -511,9 +1201,10 @@
 		88C3C1EB1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				888E13601C8987790090BE99 /* MuscleWiki 2.xcdatamodel */,
 				88C3C1EC1C883FDD007EF0F9 /* MuscleWiki.xcdatamodel */,
 			);
-			currentVersion = 88C3C1EC1C883FDD007EF0F9 /* MuscleWiki.xcdatamodel */;
+			currentVersion = 888E13601C8987790090BE99 /* MuscleWiki 2.xcdatamodel */;
 			path = MuscleWiki.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

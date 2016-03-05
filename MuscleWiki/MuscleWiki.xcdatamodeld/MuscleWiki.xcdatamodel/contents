@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Button" representedClassName=".Button" syncable="YES">
+        <attribute name="heightScaling" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="touchImageFileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="widthScaling" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="xScaling" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yScaling" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="muscle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Muscle" inverseName="frontButton" inverseEntity="Muscle" syncable="YES"/>
+    </entity>
+    <entity name="Exercise" representedClassName=".Exercise" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gifs" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="GIF" inverseName="exercise" inverseEntity="GIF" syncable="YES"/>
+        <relationship name="muscle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Muscle" inverseName="exercises" inverseEntity="Muscle" syncable="YES"/>
+        <relationship name="steps" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="ExerciseStep" inverseName="exercise" inverseEntity="ExerciseStep" syncable="YES"/>
+        <relationship name="videos" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Video" inverseName="exercise" inverseEntity="Video" syncable="YES"/>
+    </entity>
+    <entity name="ExerciseStep" representedClassName=".ExerciseStep" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="steps" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="GIF" representedClassName=".GIF" syncable="YES">
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="gifs" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="Muscle" representedClassName=".Muscle" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exercises" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Exercise" inverseName="muscle" inverseEntity="Exercise" syncable="YES"/>
+        <relationship name="frontButton" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Button" inverseName="muscle" inverseEntity="Button" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName=".Video" syncable="YES">
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="videos" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Button" positionX="-9" positionY="81" width="128" height="135"/>
+        <element name="Exercise" positionX="-54" positionY="9" width="128" height="120"/>
+        <element name="ExerciseStep" positionX="-36" positionY="18" width="128" height="90"/>
+        <element name="GIF" positionX="-18" positionY="54" width="128" height="90"/>
+        <element name="Muscle" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Video" positionX="-45" positionY="81" width="128" height="75"/>
+    </elements>
 </model>

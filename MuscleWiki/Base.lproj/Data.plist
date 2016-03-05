@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MuscleList</key>
+	<array>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>traps_left</string>
+					<key>X</key>
+					<real>0.3678</real>
+					<key>Y</key>
+					<real>0.1232</real>
+					<key>Width</key>
+					<real>0.1126</real>
+					<key>Height</key>
+					<real>0.05</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>traps_right</string>
+					<key>X</key>
+					<real>0.5276</real>
+					<key>Y</key>
+					<real>0.1232</real>
+					<key>Width</key>
+					<real>0.1126</real>
+					<key>Height</key>
+					<real>0.05</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>traps_back</string>
+					<key>X</key>
+					<real>0.408</real>
+					<key>Y</key>
+					<real>0.1101</real>
+					<key>Width</key>
+					<real>0.177</real>
+					<key>Height</key>
+					<real>0.1619</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Traps</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Videos</key>
+					<array>
+						<string>Trap Raises Front</string>
+						<string>Trap Raises Side</string>
+					</array>
+					<key>Descriptions</key>
+					<array>
+						<string>Sit on a bench with dumbbells in both hands, palms facing your body, back straight.</string>
+						<string>Elevate your shoulders, and hold the contracted position at the apex of the motion.</string>
+						<string>Slowly lower your shoulders back into starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Seated DB Shrugs</string>
+					<key>GIFs</key>
+					<array>
+						<string>SeatedDBShrugs-Front-021316</string>
+						<string>SeatedDBShrugs-Side-021316</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Videos</key>
+					<array>
+						<string>Standing Smith Machine Shrugs Front</string>
+					</array>
+					<key>Descriptions</key>
+					<array>
+						<string>Place the bar on a lower rung so that when gripped your arms are fully extended and your back is straight.</string>
+						<string>Grip at shoulder width, raise the bar with your shoulders and pause at the contracted position.</string>
+						<string>Slowly lower the bar back to starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Standing bar Shrugs</string>
+					<key>GIFs</key>
+					<array>
+						<string>StandingSMShrugs-back-021316</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>The trapezoid muscles are a flat muscle that cover the back of your neck and upper back. They enable you to draw back and rotate your shoulders and head</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>shoulders_left</string>
+					<key>X</key>
+					<real>0.2201</real>
+					<key>Y</key>
+					<real>0.1612</real>
+					<key>Width</key>
+					<real>0.1126</real>
+					<key>Height</key>
+					<real>0.06</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>shoulders_right</string>
+					<key>X</key>
+					<real>0.661</real>
+					<key>Y</key>
+					<real>0.1612</real>
+					<key>Width</key>
+					<real>0.1126</real>
+					<key>Height</key>
+					<real>0.06</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>shoulders_back_left</string>
+					<key>X</key>
+					<real>0.2322</real>
+					<key>Y</key>
+					<real>0.156</real>
+					<key>Width</key>
+					<real>0.1506</real>
+					<key>Height</key>
+					<real>0.07340000000000001</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>shoulders_back_right</string>
+					<key>X</key>
+					<real>0.6115</real>
+					<key>Y</key>
+					<real>0.156</real>
+					<key>Width</key>
+					<real>0.1506</real>
+					<key>Height</key>
+					<real>0.07340000000000001</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Shoulders</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Sit on a bench with back support. Raise the dumbbells to shoulder height with your palms forward.</string>
+						<string>Raise the dumbbells upwards, and pause at the contracted position.</string>
+						<string>Lower the weights back to starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Dumbbell Shoulder Press</string>
+					<key>Videos</key>
+					<array>
+						<string>ShoulderPress-Front-021316</string>
+						<string>ShoulderPress-Side-021316</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Stand up straight with dumbbells at either side, palms facing your hips.</string>
+						<string>Raise your arms on either side with a slight bend in your elbow until they are parallel with the floor. Pause at the apex of the raise.</string>
+						<string>Slowly return your arms down to starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Side Lateral Raises</string>
+					<key>Videos</key>
+					<array>
+						<string>SideLateralRaise-Front-021316</string>
+						<string>SideLateralRaise-Side-021316</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>With dumbbells in either hand, bend your knees with your feet slightly bowed out. Arch your back above your knees, and start with the weights touching in front of your chest.</string>
+						<string>With bent elbows, raise your arms up at shoulder level, pausing at the apex at the motion.</string>
+						<string>Slowly lower your arms back to starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Bent-Over Rear Delt Raise</string>
+					<key>Videos</key>
+					<array>
+						<string>RearDF-Front-021316</string>
+						<string>RearDF-Side-021316</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Lay flat on the bench and place your feet on the ground.</string>
+						<string>Begin the exercise with the dumbbells held together above your chest, elbows slightly bent.</string>
+						<string>Simultaneously lower the weights to either side</string>
+						<string>Pause when the weights are parallel to the bench, then raise your arms to the starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Dumbbell Flyes</string>
+					<key>Videos</key>
+					<array>
+						<string>8gKtwXXYsgFuo</string>
+						<string>LEEakEn1EZQoE</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>The deltoids are the muscles on your shoulder joints which enable movement of your arms away from the body.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>chest_front</string>
+					<key>X</key>
+					<real>0.361</real>
+					<key>Y</key>
+					<real>0.2064</real>
+					<key>Width</key>
+					<real>0.2793</real>
+					<key>Height</key>
+					<real>0.0531</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Chest</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Videos</key>
+					<array>
+						<string>Chest Front</string>
+						<string>Chest Side v2</string>
+					</array>
+					<key>Descriptions</key>
+					<array>
+						<string>Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.</string>
+						<string>Lower the bar to your mid chest</string>
+						<string>Raise the bar until you&apos;ve locked your elbows.</string>
+					</array>
+					<key>Name</key>
+					<string>Bench Press</string>
+				</dict>
+				<dict>
+					<key>Videos</key>
+					<array>
+						<string>Front Dips Side</string>
+						<string>ChestDips-Front-021316</string>
+					</array>
+					<key>Descriptions</key>
+					<array>
+						<string>Hold your body with arms locked above the bars.</string>
+						<string>Lower your body slowly while leaning forward, flare out your elbows</string>
+						<string>Raise your body above the bars until your arms are locked.</string>
+					</array>
+					<key>Name</key>
+					<string>Dips</string>
+				</dict>
+				<dict>
+					<key>Videos</key>
+					<array>
+						<string>DumbellCP-Front-021316</string>
+						<string>DumbbellCP-Side-021316</string>
+					</array>
+					<key>Descriptions</key>
+					<array>
+						<string>Raise the bench to a 30° - 45° angle</string>
+						<string>Lay on the bench and set your feet on the ground.</string>
+						<string>Unrack the bar with straight arms, lower the bar above your upper chest</string>
+						<string>Raise the bar until your arms are locked</string>
+					</array>
+					<key>Name</key>
+					<string>Incline Dumbbell Press</string>
+				</dict>
+				<dict>
+					<key>Videos</key>
+					<array>
+						<string>Flyes-Front-021316</string>
+						<string>Flyes-Side-021316</string>
+					</array>
+					<key>Descriptions</key>
+					<array>
+						<string>lay flat on the bench and place your feet on the ground.</string>
+						<string>Begin the exercise with the dumbbells held together above your chest, elbows slightly bent.</string>
+						<string>Simultaneously lower the weights to either side</string>
+						<string>Pause when the weights are parallel to the bench, then raise your arms to the starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Dumbbell Flys</string>
+					<key>GIFs</key>
+					<array>
+						<string>Flyes-Front-021316</string>
+						<string>Flyes-Side-021316</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>The chest is comprised of three muscles that assist in movements of the shoulder and upper arm.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>bicep_right</string>
+					<key>X</key>
+					<real>0.677</real>
+					<key>Y</key>
+					<real>0.2595</real>
+					<key>Width</key>
+					<real>0.1195</real>
+					<key>Height</key>
+					<real>0.0655</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>bicep_left</string>
+					<key>X</key>
+					<real>0.2184</real>
+					<key>Y</key>
+					<real>0.2595</real>
+					<key>Width</key>
+					<real>0.1195</real>
+					<key>Height</key>
+					<real>0.0655</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Bicep</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>While holding the upper arms stationary, curl the weights forward while contracting the biceps as you breathe out.</string>
+						<string>Continue the movement until your biceps are fully contracted and the bar is at shoulder level.</string>
+						<string>Hold the contracted position for a second and squeeze the biceps hard.</string>
+						<string>Slowly bring the weight back down to the starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Barbell Bicep Curl</string>
+					<key>Videos</key>
+					<array>
+						<string>IFTrnqjHb35gk</string>
+						<string>zbt9y6Qp0SPsY</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Stand up straight with a dumbbell in each hand at arm&apos;s length.</string>
+						<string>Raise one dumbbell and twist your forearm until it is vertical and your palm faces the shoulder.</string>
+						<string>Lower to original position and repeat with opposite arm</string>
+					</array>
+					<key>Name</key>
+					<string>Dumbbell Bicep Curl</string>
+					<key>Videos</key>
+					<array>
+						<string>Bicep Curl Front</string>
+						<string>Bicep Curl Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Hold a dumbbell in each hand with the weight facing away from you.</string>
+						<string>Slowly lift the dumbbell up to chest height</string>
+						<string>Return to starting position and repeat.</string>
+					</array>
+					<key>Name</key>
+					<string>Hammer Curls</string>
+					<key>Videos</key>
+					<array>
+						<string>Bicep Hammer Curl Front</string>
+						<string>Bicep Hammer Curl Side</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>Originating in the shoulder area, the bicep can be found on the front part of the upper arm and are attached to the radius and ulna (forearm bones) by tough connective tissues called tendons. When the bicep contracts, the tendon is pulled towards to head of the bicep, thus bending the elbow. As a consequence of this, the bicep is often referred to as a &apos;flexor&apos;, with it&apos;s partner being the tricep which acts as an &apos;extensor&apos;. Traditionally, the size and solidity of the contracted bicep is a measure of traditional strength in lifting.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>abdominals</string>
+					<key>X</key>
+					<real>0.4046</real>
+					<key>Y</key>
+					<real>0.2733</real>
+					<key>Width</key>
+					<real>0.1885</real>
+					<key>Height</key>
+					<real>0.1298</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Abdominals</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Lay flat on your back with your knees bent and your feet flat on the ground, about a foot from your lower back.</string>
+						<string>Place your fingertips on your temples with your palms facing out.</string>
+						<string>Draw your belly into the base of your spine to engage the muscles, then raise your head and shoulders off the floor. Return to starting position and repeat.</string>
+					</array>
+					<key>Name</key>
+					<string>Crunches</string>
+					<key>Videos</key>
+					<array>
+						<string>Crunch Front</string>
+						<string>Crunch Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Grab the bar and hang, your body still and your legs straight.</string>
+						<string>Slowly draw your knees up to your chest</string>
+						<string>Once you have raised your knees as high as possible, lower your legs and repeat.Duration of these movements should be slow so that you do not utilize momentum, enabling you to get the most out of the exercise.</string>
+					</array>
+					<key>Name</key>
+					<string>Hanging Knee Raises</string>
+					<key>Videos</key>
+					<array>
+						<string>Hanging Leg Raises Side</string>
+						<string>Hanging Leg Raises Side 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Lay on your back with your arms palms down on either side.</string>
+						<string>Keep your legs together and as straight as possible.</string>
+						<string>Slowly raise your legs to a 90° angle, pause at this position, or as high as you can reach your legs, and then slowly lower your legs back down.</string>
+					</array>
+					<key>Name</key>
+					<string>Laying Leg Raises</string>
+					<key>Videos</key>
+					<array>
+						<string>Leg Raise Front</string>
+						<string>Leg Raise Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Place forearms on the ground with your elbows bent at a 90° angle aligned beneath your shoulders, with your arms parallel at shoulder-width.</string>
+						<string>Your feet should be together, with only your toes touching the floor.</string>
+						<string>Lift your belly off the floor and form a straight line from your heels to the crown of your head and hold.</string>
+					</array>
+					<key>Name</key>
+					<string>Forearm Plank</string>
+					<key>Videos</key>
+					<array>
+						<string>plank-static</string>
+						<string>Plank Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Hold the Ab Roller with both hands and kneel on the floor with your feet up and crossed.</string>
+						<string>Slowly roll the ab roller straight forward, stretching your body into a straight position.</string>
+						<string>After a pause at the stretched position, start pulling yourself back to the starting position. This should be a slow and controlled movement.</string>
+					</array>
+					<key>Name</key>
+					<string>Roll-Outs</string>
+					<key>Videos</key>
+					<array>
+						<string>AbRoller-Front-021316</string>
+						<string>AbRoller-Side-021316</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>The abdominals are a large group of muscles situated at the front of the abdomen, which assist in the regulation of breathing movements, whilst also supporting the spinal muscles.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>forearms_left</string>
+					<key>X</key>
+					<real>0.1057</real>
+					<key>Y</key>
+					<real>0.3427</real>
+					<key>Width</key>
+					<real>0.1897</real>
+					<key>Height</key>
+					<real>0.1186</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>forearms_right</string>
+					<key>X</key>
+					<real>0.7103</real>
+					<key>Y</key>
+					<real>0.3427</real>
+					<key>Width</key>
+					<real>0.1897</real>
+					<key>Height</key>
+					<real>0.1186</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>forearms_back_left</string>
+					<key>X</key>
+					<real>0.08160000000000001</real>
+					<key>Y</key>
+					<real>0.3427</real>
+					<key>Width</key>
+					<real>0.1828</real>
+					<key>Height</key>
+					<real>0.135</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>forearms_back_right</string>
+					<key>X</key>
+					<real>0.7356</real>
+					<key>Y</key>
+					<real>0.3427</real>
+					<key>Width</key>
+					<real>0.1828</real>
+					<key>Height</key>
+					<real>0.135</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Forearms</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Stand straight and hold the barbel behind you using a pronated grip, hands and feet shoulder width apart.</string>
+						<string>Slowly curl your wrists in a semi-circular motion upwards.</string>
+						<string>Hold the barbell at the apex of the motion and then slowly lower the barbell back down to starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Behind The Back Barbell Wrist Curl</string>
+					<key>Videos</key>
+					<array>
+						<string>Barbell Wrist Curls Front</string>
+						<string>RV-Curl Forarms-Side-021316</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Grip the dumbbell with your palm facing upwards. Have your forearm rested on the bench.</string>
+						<string>Slowly curl your wrist upwards in a semicircular motion.</string>
+						<string>Return to starting position and repeat.</string>
+					</array>
+					<key>Name</key>
+					<string>Forearm Curl</string>
+					<key>Videos</key>
+					<array>
+						<string>Forearm Curls Front</string>
+						<string>Forearm Curls Side</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>Your forearms makeup the muscles between your elbows and wrists. They control the vertical movements of your hands, and are a primary component of grip strength.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>quads_left</string>
+					<key>X</key>
+					<real>0.3</real>
+					<key>Y</key>
+					<real>0.4364</real>
+					<key>Width</key>
+					<real>0.1885</real>
+					<key>Height</key>
+					<real>0.2438</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>quads_right</string>
+					<key>X</key>
+					<real>0.5172</real>
+					<key>Y</key>
+					<real>0.4364</real>
+					<key>Width</key>
+					<real>0.1885</real>
+					<key>Height</key>
+					<real>0.2438</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>quads_back_left</string>
+					<key>X</key>
+					<real>0.3</real>
+					<key>Y</key>
+					<real>0.5583</real>
+					<key>Width</key>
+					<real>0.1851</real>
+					<key>Height</key>
+					<real>0.1494</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>quads_back_right</string>
+					<key>X</key>
+					<real>0.5172</real>
+					<key>Y</key>
+					<real>0.5583</real>
+					<key>Width</key>
+					<real>0.1851</real>
+					<key>Height</key>
+					<real>0.1494</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Quads</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Stand with your feet shoulder width apart. Maintain the natural arch in your back, squeezing your shoulder blades and raising your chest.</string>
+						<string>Grip the bar across your shoulders and support it on your upper back. Unwrack the bar by straightening your legs, and take a step back.</string>
+						<string>Bend your knees as you lower the weight without altering the form of your back until your hips are below your knees.</string>
+						<string>Raise the bar back to starting position, lift with your legs and exhale at the top.</string>
+						<string>It is possible to do this exercise without using the weight bar.</string>
+					</array>
+					<key>Name</key>
+					<string>Squat</string>
+					<key>Videos</key>
+					<array>
+						<string>Squat Front</string>
+						<string>Squat Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Sit on the machine with your back against the cushion and adjust the machine you are using so that your knees are at a 90° angle at the starting position.</string>
+						<string>Raise the weight by extending your knees outward, then lower your leg to the starting position. Both movements should be done in a slow, controlled motion.</string>
+					</array>
+					<key>Name</key>
+					<string>Leg Extension</string>
+					<key>Videos</key>
+					<array>
+						<string>Leg Extensions Front</string>
+						<string>Leg Extensions Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Hold the weight tucked into your upper chest area, keeping your elbows in. Your feet should be slightly wider than shoulder width.</string>
+						<string>Sink down into the squat, keeping your elbows inside the track of your knees.</string>
+						<string>Push through your heels while keeping your chest up and return to starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Goblet Squat</string>
+					<key>Videos</key>
+					<array>
+						<string>Goblet Squat Front</string>
+						<string>Goblet Squat Side</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>Your quads makeup the large muscles on the front of your thighs which extend your legs.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>claves_left</string>
+					<key>X</key>
+					<real>0.2908</real>
+					<key>Y</key>
+					<real>0.7208</real>
+					<key>Width</key>
+					<real>0.1241</real>
+					<key>Height</key>
+					<real>0.1782</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<true/>
+					<key>TouchImage</key>
+					<string>claves_right</string>
+					<key>X</key>
+					<real>0.5851</real>
+					<key>Y</key>
+					<real>0.7208</real>
+					<key>Width</key>
+					<real>0.1241</real>
+					<key>Height</key>
+					<real>0.1782</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>claves_back_left</string>
+					<key>X</key>
+					<real>0.2517</real>
+					<key>Y</key>
+					<real>0.7208</real>
+					<key>Width</key>
+					<real>0.131</real>
+					<key>Height</key>
+					<real>0.1199</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>claves_back_right</string>
+					<key>X</key>
+					<real>0.6149</real>
+					<key>Y</key>
+					<real>0.7208</real>
+					<key>Width</key>
+					<real>0.131</real>
+					<key>Height</key>
+					<real>0.1199</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Calves</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Adjust the machine in accordance with your height, and place your shoulders underneath the padded lever.</string>
+						<string>The balls of your feet should be supporting your weight on the calve block, your heels extending off of it.</string>
+						<string>Extend your heels upwards while keeping your knees stationary, and pause at the contracted position.</string>
+						<string>Slowly return to the starting position. Repeat.</string>
+					</array>
+					<key>Name</key>
+					<string>Standing Calf Raises</string>
+					<key>Videos</key>
+					<array>
+						<string>Standing Calf Raises</string>
+						<string>Standing Calf Raises Wide</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Get comfortable on the machine, then place your lower thighs beneath the padded lever. Place your toes and the balls of your feet onto the foot supports.</string>
+						<string>Prevent the weight from slipping forward by gripping the handles, and release the safety bar. Lower the weight until your calves are extended.</string>
+						<string>Push your heels up to lift the padded lever, and hold the contracted position, then slowly lower back down to the starting position. Repeat.</string>
+					</array>
+					<key>Name</key>
+					<string>Seated Calf Raises</string>
+					<key>Videos</key>
+					<array>
+						<string>Calf Raises Front</string>
+						<string>Calf Raises Side</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>Your calve muscles are what you see contract between your ankle and knees when you stand on your toes. These muscles assist in jumping and the movement of your feet.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>back_left</string>
+					<key>X</key>
+					<real>0.3195</real>
+					<key>Y</key>
+					<real>0.2149</real>
+					<key>Width</key>
+					<real>0.1379</real>
+					<key>Height</key>
+					<real>0.1566</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>back_right</string>
+					<key>X</key>
+					<real>0.5425</real>
+					<key>Y</key>
+					<real>0.2149</real>
+					<key>Width</key>
+					<real>0.1379</real>
+					<key>Height</key>
+					<real>0.1566</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Back</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Stand with your mid-foot under the bar and grip the bar with your hands, about a shoulder width apart.</string>
+						<string>Bend your knees, then lift the bar by straightening your back. It is important to keep your back straight.</string>
+						<string>Stand to your full height and hold.</string>
+						<string>Lower the bar to the floor by bending your knees and keeping your back straight.</string>
+					</array>
+					<key>Name</key>
+					<string>Deadlift</string>
+					<key>Videos</key>
+					<array>
+						<string>Deadlift Front</string>
+						<string>Deadlift Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Grip the bar with the palms facing forward, your hands need to be spaced out at a distance wider than shoulder width.</string>
+						<string>As you have both arms extended in front of you holding the bar, bring your torso back around 30 degrees while sticking your chest out.</string>
+						<string>Pull the bar down to about chin level or a little lower in a smooth movement whilst squeezing the shoulder blades together.</string>
+						<string>After a second of squeezing, slowly raise the bar back to the starting position when your arms are fully extended.</string>
+					</array>
+					<key>Name</key>
+					<string>Neutral Grip Pulldown</string>
+					<key>Videos</key>
+					<array>
+						<string>Neutral Grip Pull Downs Front</string>
+						<string>Neutral Grip Pull Downs Rear</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Sit with your back straight on the machine and grip the handles.</string>
+						<string>Pull the handles back using your arms. Your legs and torso should be at a 90° angle. Push out your chest.</string>
+						<string>Pull the handles towards your body until your hands are beside your abdomen.</string>
+					</array>
+					<key>Name</key>
+					<string>Seated Cable Row</string>
+					<key>Videos</key>
+					<array>
+						<string>SeatedCableRow-Side-021316</string>
+						<string>Seated Cable Row Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Place your right leg on the top end of the bench so that your knee and shin rest flat on the bench, your foot hanging off the end.</string>
+						<string>Bend your torso towards the floor and support yourself with your right arm by placing your palm flat against the bench.</string>
+						<string>Grip the weight with your left and, and pull it straight up to the side of your chest. Repeat the motion.</string>
+						<string>Switch the supporting leg and arm to work the other side.</string>
+					</array>
+					<key>Name</key>
+					<string>Dumbbell Row</string>
+					<key>Videos</key>
+					<array>
+						<string>Single Dumbbell Row Front</string>
+						<string>Single Dumbbell Row Side</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>Your lat muscles are the large muscles on either side of your midback. These muscles can draw your shoulders downward and back, and medial arm movements.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>triceps_left</string>
+					<key>X</key>
+					<real>0.2011</real>
+					<key>Y</key>
+					<real>0.2294</real>
+					<key>Width</key>
+					<real>0.1184</real>
+					<key>Height</key>
+					<real>0.1134</real>
+				</dict>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>triceps_right</string>
+					<key>X</key>
+					<real>0.6736</real>
+					<key>Y</key>
+					<real>0.2294</real>
+					<key>Width</key>
+					<real>0.1184</real>
+					<key>Height</key>
+					<real>0.1134</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Triceps</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Hold your body at arms length above the bars.</string>
+						<string>Inhale and slowly lower yourself downward. Keep your elbows close to your body and your torso upright.</string>
+						<string>Exhale, and using your triceps raise your body back to the starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Dips (narrow elbows)</string>
+					<key>Videos</key>
+					<array>
+						<string>DipsNarrow-front-021316</string>
+						<string>DipsNarrow-Side-021316</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Sit on the bench and hold a dumbbell with both hands. Raise the dumbbell overhead at arms length, holding the weight up with the palms of your hands.</string>
+						<string>Keep your elbows in while you lower the weight behind your head, your upper arms stationary.</string>
+						<string>Raise the weight back to starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Seated Triceps Extensions</string>
+					<key>Videos</key>
+					<array>
+						<string>TricepExtensions-Front-021316</string>
+						<string>TricepExtensions-Side-021316</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Grip the pulley bar with palms facing down at shoulder width.</string>
+						<string>Stand straight with a small forward incline. Keep your upper arms close to your body, and slowly bring the pulley bar down until your arms are fully extended.</string>
+						<string>Pause when you are at the contracted position of the motion, then slowly raise the pulley-bar back to the starting point.</string>
+					</array>
+					<key>Name</key>
+					<string>Cable Pull Downs</string>
+					<key>Videos</key>
+					<array>
+						<string>CablePulldowns-Back-021316</string>
+						<string>CablePulldowns-Side-021316</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>Your triceps makeup the muscles on the back of your arms between your elbows and shoulders. They control the movements that straighten your arms.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>lowerback</string>
+					<key>X</key>
+					<real>0.4207</real>
+					<key>Y</key>
+					<real>0.3316</real>
+					<key>Width</key>
+					<real>0.1609</real>
+					<key>Height</key>
+					<real>0.1055</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Lowerback</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Stand with your mid-foot under the bar and grip the bar with your hands, about a shoulder width apart.</string>
+						<string>Bend your knees, then lift the bar by straightening your back. It is important to keep your back straight.</string>
+						<string>Stand to your full height and hold.</string>
+						<string>Lower the bar to the floor by bending your knees and keeping your back straight.</string>
+					</array>
+					<key>Name</key>
+					<string>Deadlift</string>
+					<key>Videos</key>
+					<array>
+						<string>Deadlift Front</string>
+						<string>Deadlift Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Position your thighs on the padding and hook your feet on the platform supports.</string>
+						<string>Keeping your back straight, slowly bend at your waist until your legs and back form a 45° angle.</string>
+						<string>Slowly raise your body to starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>45 Degree Back Extension</string>
+					<key>Videos</key>
+					<array>
+						<string>45 Degree Extensions Front</string>
+						<string>45 Degree Extensions Side</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>Your lower back consists of the area above your waist and is commonly related to back problems and back pain. Exercising this muscle group can help to prevent problems and build a strong healthy back.</string>
+		</dict>
+		<dict>
+			<key>Buttons</key>
+			<array>
+				<dict>
+					<key>Front</key>
+					<false/>
+					<key>TouchImage</key>
+					<string>glutes</string>
+					<key>X</key>
+					<real>0.3</real>
+					<key>Y</key>
+					<real>0.4371</real>
+					<key>Width</key>
+					<real>0.3931</real>
+					<key>Height</key>
+					<real>0.1212</real>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>Glutes</string>
+			<key>Exercises</key>
+			<array>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Lie down with your knees bent and your feet flat on the floor.</string>
+						<string>Push your hips up, so that your butt is elevated and your back straight.</string>
+						<string>Tense your glutes and raise your hips towards the ceiling.</string>
+						<string>Once you are at the highest point you can manage, hold the position for a few seconds, and then slowly return to the starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Glute Bridge</string>
+					<key>Videos</key>
+					<array>
+						<string>Glute Bridge Front</string>
+						<string>Glute Bridge Side</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Descriptions</key>
+					<array>
+						<string>Sit on the ground with a bench behind you. Have the barbell over your legs just above your hips.</string>
+						<string>Lean back against the bench so that your shoulders are resting upon it, stretch your arms out to either side using the bench as support.</string>
+						<string>Raise the weight by driving through your feet and extending your hips upwards. Support the weight with your shoulders and feet.</string>
+						<string>Slowly extend as far as you can, and then slowly return to the starting position.</string>
+					</array>
+					<key>Name</key>
+					<string>Barbell Hip Thrust</string>
+					<key>Videos</key>
+					<array>
+						<string>Glute Barbell Hip Thrusts Front</string>
+						<string>Glute Barbell Hip Thrusts</string>
+					</array>
+				</dict>
+			</array>
+			<key>Description</key>
+			<string>The glutes are an incredibly important. Not only are they one of largest and most powerful muscle groups, they contract to move your hips in every direction. This helps prevent injury, improve performance, and helps you fit nicely into jeans.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

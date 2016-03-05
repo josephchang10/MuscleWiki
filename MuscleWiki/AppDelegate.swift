@@ -13,11 +13,146 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var dataVersion = 31
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.importData()
+        
         return true
+    }
+    
+    func importData() {
+        if NSUserDefaults.standardUserDefaults().objectForKey("dataVersion\(dataVersion)") == nil {
+            var dataDict: NSDictionary?
+            if let path = NSBundle.mainBundle().pathForResource("Data", ofType: "plist") {
+                dataDict = NSDictionary(contentsOfFile: path)
+            }
+            if let dataDict = dataDict {
+                self.deleteAllData("Muscle")
+                
+                if let muscleList = dataDict["MuscleList"] as? [NSDictionary] {
+                    for muscle in muscleList  {
+                        if let name = muscle["Name"] as? String {
+                            if let newMuscle = NSEntityDescription.insertNewObjectForEntityForName("Muscle", inManagedObjectContext: self.managedObjectContext) as? Muscle {
+                                newMuscle.name = name
+                                print("保存了\(name)")
+                                
+                                if let summary = muscle["Description"] as? String {
+                                    newMuscle.summary = summary
+                                }
+                                
+                                if let exercises = muscle["Exercises"] as? [NSDictionary] {
+                                    for exercise in exercises {
+                                        if let name = exercise["Name"] as? String {
+                                            if let newExercise = NSEntityDescription.insertNewObjectForEntityForName("Exercise", inManagedObjectContext: self.managedObjectContext) as? Exercise {
+                                                newExercise.name = name
+                                                
+                                                if let descriptions = exercise["Descriptions"] as? [String] {
+                                                    for description in descriptions {
+                                                        if let newDescription = NSEntityDescription.insertNewObjectForEntityForName("ExerciseStep", inManagedObjectContext: self.managedObjectContext) as? ExerciseStep {
+                                                            newDescription.content = description
+                                                            newDescription.exercise = newExercise
+                                                        }
+                                                    }
+                                                }
+                                                
+//                                                if let gifs = exercise["GIFs"] as? [String] {
+//                                                    for gif in gifs {
+//                                                        if let newGIF = NSEntityDescription.insertNewObjectForEntityForName("GIF", inManagedObjectContext: self.managedObjectContext) as? GIF {
+//                                                            newGIF.fileName = "\(gif).gif"
+//                                                            newGIF.exercise = newExercise
+//                                                        }
+//                                                    }
+//                                                }
+                                                
+                                                if let videos = exercise["Videos"] as? [String] {
+                                                    for video in videos {
+                                                        if let newViedo = NSEntityDescription.insertNewObjectForEntityForName("Video", inManagedObjectContext: self.managedObjectContext) as? Video {
+                                                            newViedo.fileName = video
+                                                            newViedo.exercise = newExercise
+                                                        }
+                                                    }
+                                                }
+                                                
+                                                newExercise.muscle = newMuscle
+                                            }
+                                        }
+                                    }
+                                }
+                                
+                                if let buttons = muscle["Buttons"] as? [NSDictionary] {
+                                    for button in buttons {
+                                        if let touchImage = button["TouchImage"] as? String {
+                                            if let newButton = NSEntityDescription.insertNewObjectForEntityForName("Button", inManagedObjectContext: self.managedObjectContext) as? Button {
+                                                newButton.touchImageFileName = touchImage
+                                                
+                                                if let x = button["X"] as? Double {
+                                                    newButton.xScaling = x
+                                                }
+                                                
+                                                if let y = button["Y"] as? Double {
+                                                    newButton.yScaling = y
+                                                }
+                                                
+                                                if let width = button["Width"] as? Double {
+                                                    newButton.widthScaling = width
+                                                }
+                                                
+                                                if let height = button["Height"] as? Double {
+                                                    newButton.heightScaling = height
+                                                }
+                                                
+                                                if let front = button["Front"] as? Bool {
+                                                    newButton.front = front
+                                                }
+                                                
+                                                newButton.muscle = newMuscle
+                                            }
+                                        }
+                                    }
+                                }
+                                
+//                                if let frontButton = muscle["FrontButton"] as? NSDictionary {
+//                                    if let touchImage = frontButton["TouchImage"] as? String {
+//                                        if let newButton = NSEntityDescription.insertNewObjectForEntityForName("Button", inManagedObjectContext: self.managedObjectContext) as? Button {
+//                                            newButton.touchImageFileName = touchImage
+//                                            
+//                                            if let x = frontButton["X"] as? Double {
+//                                                newButton.xScaling = x
+//                                            }
+//                                            
+//                                            if let y = frontButton["Y"] as? Double {
+//                                                newButton.yScaling = y
+//                                            }
+//                                            
+//                                            if let width = frontButton["Width"] as? Double {
+//                                                newButton.widthScaling = width
+//                                            }
+//                                            
+//                                            if let height = frontButton["Height"] as? Double {
+//                                                newButton.heightScaling = height
+//                                            }
+//                                            
+//                                            newButton.muscle = newMuscle
+//                                        }
+//                                    }
+//                                }
+                            }
+                        }
+                    }
+                }
+                
+                do {
+                    try self.managedObjectContext.save()
+                    NSUserDefaults.standardUserDefaults().setObject(true, forKey: "dataVersion\(dataVersion)")
+                    print("上下文保存成功")
+                }catch {
+                    print("上下文保存错误")
+                }
+                
+            }
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -65,7 +200,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
         var failureReason = "There was an error creating or loading the application's saved data."
         do {
-            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)
+            try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: [NSMigratePersistentStoresAutomaticallyOption:true, NSInferMappingModelAutomaticallyOption: true])
         } catch {
             // Report any error we got.
             var dict = [String: AnyObject]()
@@ -104,6 +239,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
                 abort()
             }
+        }
+    }
+    
+    func deleteAllData(entity: String)
+    {
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let managedContext = appDelegate.managedObjectContext
+        let fetchRequest = NSFetchRequest(entityName: entity)
+        fetchRequest.returnsObjectsAsFaults = false
+        
+        do
+        {
+            let results = try managedContext.executeFetchRequest(fetchRequest)
+            for managedObject in results
+            {
+                let managedObjectData:NSManagedObject = managedObject as! NSManagedObject
+                managedContext.deleteObject(managedObjectData)
+            }
+            
+            print("删除了\(entity)")
+        } catch let error as NSError {
+            print("Detele all data in \(entity) error : \(error) \(error.userInfo)")
         }
     }
 
