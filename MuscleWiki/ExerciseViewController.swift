@@ -15,6 +15,7 @@ class ExerciseViewController: UIViewController {
     
     private let exerciseVideoCellId = "ExerciseVideoTableViewCell"
     private let exerciseTitleCellId = "ExerciseTitleTableViewCell"
+    private let traningSymbolsCellId = "TrainingSymbolsTableViewCell"
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -24,6 +25,7 @@ class ExerciseViewController: UIViewController {
         // Do any additional setup after loading the view.
         tableView.registerNib(UINib(nibName: exerciseVideoCellId, bundle: nil), forCellReuseIdentifier: exerciseVideoCellId)
         tableView.registerNib(UINib(nibName: exerciseTitleCellId, bundle: nil), forCellReuseIdentifier: exerciseTitleCellId)
+        tableView.registerNib(UINib(nibName: traningSymbolsCellId, bundle: nil), forCellReuseIdentifier: traningSymbolsCellId)
         
         print("\(self.muscle.name)有\(self.muscle.exercises?.count)个训练")
         
@@ -31,7 +33,14 @@ class ExerciseViewController: UIViewController {
     }
     
     func makeUI() {
-        self.title = self.muscle.name!
+        tableView.backgroundView = UIView()
+        tableView.backgroundColor = UIColor(red: 43/255, green: 51/255, blue: 79/255, alpha: 1)
+        
+        let label = UILabel()
+        label.text = self.muscle.name!
+        label.textColor = UIColor.whiteColor()
+        label.sizeToFit()
+        self.navigationItem.titleView = label
         
         self.tableView.estimatedRowHeight = 44
         self.tableView.rowHeight = UITableViewAutomaticDimension
@@ -99,8 +108,15 @@ extension ExerciseViewController: UITableViewDataSource, UITableViewDelegate {
                 let cell = tableView.dequeueReusableCellWithIdentifier(exerciseTitleCellId)
                 
                 cell?.textLabel?.text = exercise.name
+                cell?.textLabel?.backgroundColor = UIColor.clearColor()
                 
                 return cell!
+                
+            }else if indexPath.row == exercise.steps!.count + 2 {
+                
+                let cell = tableView.dequeueReusableCellWithIdentifier(traningSymbolsCellId) as! TrainingSymbolsTableViewCell
+                
+                return cell
                 
             }else {
                 let cell = tableView.dequeueReusableCellWithIdentifier("StepCell", forIndexPath: indexPath) as! ExerciseStepTableViewCell
@@ -112,7 +128,7 @@ extension ExerciseViewController: UITableViewDataSource, UITableViewDelegate {
                 return cell
             }
 //        }
-        
+    
         
     }
     
@@ -129,11 +145,21 @@ extension ExerciseViewController: UITableViewDataSource, UITableViewDelegate {
             return 1
         }else{
             if let exercises = self.muscle.exercises?.objectAtIndex(section-1) as? Exercise {
-                return exercises.steps!.count + 2
+                return exercises.steps!.count + 3
             }
         }
         
         return 0
+    }
+    
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == 0 {
+            return 20
+        }else if section == 1 {
+            return 20
+        }
+        
+        return 0.00000000001
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,31 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="mqn-Yu-5y4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by MuscleWiki" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3N-cY-lrA">
+                                <rect key="frame" x="229" y="564" width="143" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.81960784313725488" green="0.86274509803921573" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="1vN-Lv-KxN">
+                                <rect key="frame" x="212" y="160" width="177" height="124"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="y3N-cY-lrA" firstAttribute="centerX" secondItem="1vN-Lv-KxN" secondAttribute="centerX" id="H9g-gK-LA1"/>
+                            <constraint firstItem="1vN-Lv-KxN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IaZ-tX-la4"/>
+                            <constraint firstItem="mqn-Yu-5y4" firstAttribute="centerX" secondItem="1vN-Lv-KxN" secondAttribute="centerX" id="LfJ-2X-Oy5"/>
+                            <constraint firstItem="mqn-Yu-5y4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="SI0-7k-tiW"/>
+                            <constraint firstItem="mqn-Yu-5y4" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="cLB-qv-fSv"/>
+                            <constraint firstItem="1vN-Lv-KxN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="160" id="hHg-V9-mUq"/>
+                            <constraint firstItem="mqn-Yu-5y4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="rfC-CX-1qj"/>
+                            <constraint firstAttribute="bottom" secondItem="y3N-cY-lrA" secondAttribute="bottom" constant="20" symbolic="YES" id="s6L-TI-tvp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +49,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background_gradient" width="414" height="736"/>
+        <image name="logo_launch_screen" width="177" height="124"/>
+    </resources>
 </document>

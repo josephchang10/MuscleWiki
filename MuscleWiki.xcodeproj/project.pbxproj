@@ -89,7 +89,8 @@
 		888E13EE1C8A90870090BE99 /* ExerciseTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E13EC1C8A90870090BE99 /* ExerciseTitleTableViewCell.swift */; };
 		888E13EF1C8A90870090BE99 /* ExerciseTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888E13ED1C8A90870090BE99 /* ExerciseTitleTableViewCell.xib */; };
 		888E13F21C8A94340090BE99 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888E13F41C8A94340090BE99 /* Data.plist */; };
-		888E13F71C8A99DF0090BE99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888E13F61C8A99DF0090BE99 /* Localizable.strings */; };
+		888E14081C8D85BE0090BE99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888E140A1C8D85BE0090BE99 /* Localizable.strings */; };
+		888E140D1C8D93DE0090BE99 /* LightContentStatusBarNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888E140C1C8D93DE0090BE99 /* LightContentStatusBarNavigationController.swift */; };
 		88A3059D1C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A305931C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift */; };
 		88A3059E1C886E1B009AB0B8 /* ExerciseStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A305941C886E1B009AB0B8 /* ExerciseStep.swift */; };
 		88A3059F1C886E1B009AB0B8 /* Muscle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A305951C886E1B009AB0B8 /* Muscle+CoreDataProperties.swift */; };
@@ -106,6 +107,9 @@
 		88C3C1F21C883FDD007EF0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3C1F01C883FDD007EF0F9 /* LaunchScreen.storyboard */; };
 		88C3C1FD1C883FDD007EF0F9 /* MuscleWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C1FC1C883FDD007EF0F9 /* MuscleWikiTests.swift */; };
 		88C3C2081C883FDD007EF0F9 /* MuscleWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C2071C883FDD007EF0F9 /* MuscleWikiUITests.swift */; };
+		88C852871C8D99EC006187EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88C852891C8D99EC006187EF /* InfoPlist.strings */; };
+		88F7B0C61D7BF399001F043F /* TrainingSymbolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7B0C51D7BF399001F043F /* TrainingSymbolsTableViewCell.swift */; };
+		88F7B0C81D7BF3A7001F043F /* TrainingSymbolsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F7B0C71D7BF3A7001F043F /* TrainingSymbolsTableViewCell.xib */; };
 		E22C3025012D3E9E1F6582A9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B226AC02BBCD3DEDDE57D820 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -214,7 +218,9 @@
 		888E13F11C8A94080090BE99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		888E13F31C8A94340090BE99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Data.plist"; sourceTree = "<group>"; };
 		888E13F51C8A943B0090BE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Data.plist; sourceTree = "<group>"; };
-		888E13F61C8A99DF0090BE99 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		888E14091C8D85BE0090BE99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		888E140B1C8D85C00090BE99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		888E140C1C8D93DE0090BE99 /* LightContentStatusBarNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightContentStatusBarNavigationController.swift; sourceTree = "<group>"; };
 		88A305931C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseStep+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		88A305941C886E1B009AB0B8 /* ExerciseStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseStep.swift; sourceTree = "<group>"; };
 		88A305951C886E1B009AB0B8 /* Muscle+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Muscle+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -230,13 +236,17 @@
 		88C3C1EC1C883FDD007EF0F9 /* MuscleWiki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MuscleWiki.xcdatamodel; sourceTree = "<group>"; };
 		88C3C1EE1C883FDD007EF0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88C3C1F11C883FDD007EF0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		88C3C1F31C883FDD007EF0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88C3C1F81C883FDD007EF0F9 /* MuscleWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3C1FC1C883FDD007EF0F9 /* MuscleWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleWikiTests.swift; sourceTree = "<group>"; };
 		88C3C1FE1C883FDD007EF0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88C3C2031C883FDD007EF0F9 /* MuscleWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3C2071C883FDD007EF0F9 /* MuscleWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleWikiUITests.swift; sourceTree = "<group>"; };
 		88C3C2091C883FDD007EF0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C852831C8D996F006187EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		88C852881C8D99EC006187EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88C8528A1C8D99EE006187EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		88F7B0C51D7BF399001F043F /* TrainingSymbolsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingSymbolsTableViewCell.swift; sourceTree = "<group>"; };
+		88F7B0C71D7BF3A7001F043F /* TrainingSymbolsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainingSymbolsTableViewCell.xib; sourceTree = "<group>"; };
 		B226AC02BBCD3DEDDE57D820 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E9D9025CA0FD7064B3944E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,6 +289,7 @@
 		888E13321C888DEE0090BE99 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				888E140E1C8D93E20090BE99 /* LightContentStatusBarNavigation */,
 				888E13341C888E010090BE99 /* ExerciseViewController */,
 				888E13331C888DF50090BE99 /* ViewController */,
 			);
@@ -313,6 +324,7 @@
 		888E13381C88922D0090BE99 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				88F7B0C41D7BF34E001F043F /* TrainingSymbols */,
 				888E13EB1C8A90680090BE99 /* ExerciseTitle */,
 				888E135B1C8983010090BE99 /* ExerciseVideo */,
 				888E13421C88A9720090BE99 /* Exercises */,
@@ -553,6 +565,14 @@
 			name = ExerciseTitle;
 			sourceTree = "<group>";
 		};
+		888E140E1C8D93E20090BE99 /* LightContentStatusBarNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				888E140C1C8D93DE0090BE99 /* LightContentStatusBarNavigationController.swift */,
+			);
+			name = LightContentStatusBarNavigation;
+			sourceTree = "<group>";
+		};
 		88A305901C8861F8009AB0B8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -619,10 +639,11 @@
 				88C3C1E81C883FDD007EF0F9 /* Main.storyboard */,
 				88C3C1EE1C883FDD007EF0F9 /* Assets.xcassets */,
 				88C3C1F01C883FDD007EF0F9 /* LaunchScreen.storyboard */,
-				88C3C1F31C883FDD007EF0F9 /* Info.plist */,
 				88C3C1EB1C883FDD007EF0F9 /* MuscleWiki.xcdatamodeld */,
 				888E13F41C8A94340090BE99 /* Data.plist */,
-				888E13F61C8A99DF0090BE99 /* Localizable.strings */,
+				888E140A1C8D85BE0090BE99 /* Localizable.strings */,
+				88C852831C8D996F006187EF /* Info.plist */,
+				88C852891C8D99EC006187EF /* InfoPlist.strings */,
 			);
 			path = MuscleWiki;
 			sourceTree = "<group>";
@@ -643,6 +664,15 @@
 				88C3C2091C883FDD007EF0F9 /* Info.plist */,
 			);
 			path = MuscleWikiUITests;
+			sourceTree = "<group>";
+		};
+		88F7B0C41D7BF34E001F043F /* TrainingSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				88F7B0C51D7BF399001F043F /* TrainingSymbolsTableViewCell.swift */,
+				88F7B0C71D7BF3A7001F043F /* TrainingSymbolsTableViewCell.xib */,
+			);
+			name = TrainingSymbols;
 			sourceTree = "<group>";
 		};
 		CD38F8BE9BD996DC7F34A15E /* Frameworks */ = {
@@ -743,6 +773,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 88C3C1D81C883FDD007EF0F9;
 			productRefGroup = 88C3C1E21C883FDD007EF0F9 /* Products */;
@@ -815,9 +846,11 @@
 				888E134E1C897A430090BE99 /* ChestDips-Front-021316.mp4 in Resources */,
 				888E13B11C89D9740090BE99 /* Goblet Squat Front.mp4 in Resources */,
 				888E137B1C8997160090BE99 /* LEEakEn1EZQoE.mp4 in Resources */,
+				88C852871C8D99EC006187EF /* InfoPlist.strings in Resources */,
 				888E13A01C89D1470090BE99 /* Barbell Wrist Curls Front.mp4 in Resources */,
 				888E13E81C89F4E60090BE99 /* Glute Barbell Hip Thrusts.mp4 in Resources */,
 				888E13951C89CD900090BE99 /* Plank Side.mp4 in Resources */,
+				88F7B0C81D7BF3A7001F043F /* TrainingSymbolsTableViewCell.xib in Resources */,
 				888E13481C8965C60090BE99 /* Chest Front.mp4 in Resources */,
 				888E13B61C89E5C00090BE99 /* Standing Calf Raises.mp4 in Resources */,
 				888E13BF1C89F00E0090BE99 /* Deadlift Front.mp4 in Resources */,
@@ -834,7 +867,7 @@
 				888E13A21C89D1980090BE99 /* RV-Curl Forarms-Side-021316.mp4 in Resources */,
 				888E139B1C89CDF70090BE99 /* AbRoller-Side-021316.mp4 in Resources */,
 				888E13D71C89F25D0090BE99 /* CablePulldowns-Back-021316.mp4 in Resources */,
-				888E13F71C8A99DF0090BE99 /* Localizable.strings in Resources */,
+				888E14081C8D85BE0090BE99 /* Localizable.strings in Resources */,
 				888E13771C8996F60090BE99 /* RearDF-Side-021316.mp4 in Resources */,
 				888E13C91C89F0C00090BE99 /* Seated Cable Row Side.mp4 in Resources */,
 			);
@@ -921,6 +954,7 @@
 				888E136A1C8993D50090BE99 /* MuscleButton.swift in Sources */,
 				88A305A01C886E1B009AB0B8 /* Muscle.swift in Sources */,
 				888E135D1C8983160090BE99 /* ExerciseVideoTableViewCell.swift in Sources */,
+				888E140D1C8D93DE0090BE99 /* LightContentStatusBarNavigationController.swift in Sources */,
 				888E13361C888E1D0090BE99 /* ExerciseViewController.swift in Sources */,
 				888E13441C88A9870090BE99 /* ExercisesTableViewCell.swift in Sources */,
 				88A305A61C886E1B009AB0B8 /* Exercise.swift in Sources */,
@@ -928,6 +962,7 @@
 				888E133B1C8892800090BE99 /* MuscleSummaryTableViewCell.swift in Sources */,
 				888E13591C8981710090BE99 /* Video+CoreDataProperties.swift in Sources */,
 				888E13EE1C8A90870090BE99 /* ExerciseTitleTableViewCell.swift in Sources */,
+				88F7B0C61D7BF399001F043F /* TrainingSymbolsTableViewCell.swift in Sources */,
 				88A3059D1C886E1B009AB0B8 /* ExerciseStep+CoreDataProperties.swift in Sources */,
 				88A305A41C886E1B009AB0B8 /* Button.swift in Sources */,
 			);
@@ -974,6 +1009,15 @@
 			name = Data.plist;
 			sourceTree = "<group>";
 		};
+		888E140A1C8D85BE0090BE99 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888E14091C8D85BE0090BE99 /* zh-Hans */,
+				888E140B1C8D85C00090BE99 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		88C3C1E81C883FDD007EF0F9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -990,6 +1034,15 @@
 				888E13F11C8A94080090BE99 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		88C852891C8D99EC006187EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C852881C8D99EC006187EF /* Base */,
+				88C8528A1C8D99EE006187EF /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1085,11 +1138,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = MuscleWiki/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1100,11 +1154,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = MuscleWiki/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = social.street.MuscleWiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

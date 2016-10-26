@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrainingSymbolsTableViewCell" id="rJJ-Nl-Ppu" customClass="TrainingSymbolsTableViewCell" customModule="MuscleWiki" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rJJ-Nl-Ppu" id="2hx-he-MQy">
+                <frame key="frameInset" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5LN-Hx-cIk">
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ErI-8k-gtV">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ErI-8k-gtV" secondAttribute="height" multiplier="1:1" id="S2e-YL-ooP"/>
+                                    <constraint firstAttribute="width" constant="26" id="UYw-nU-JbH"/>
+                                </constraints>
+                                <state key="normal" image="斜线"/>
+                                <connections>
+                                    <action selector="symbolButtonTouched:" destination="rJJ-Nl-Ppu" eventType="touchUpInside" id="oMP-Xx-nIq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szh-h0-THm">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="szh-h0-THm" secondAttribute="height" multiplier="1:1" id="zYh-e3-DV2"/>
+                                </constraints>
+                                <state key="normal" image="斜线"/>
+                                <connections>
+                                    <action selector="symbolButtonTouched:" destination="rJJ-Nl-Ppu" eventType="touchUpInside" id="KK1-qx-HR3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtZ-AQ-170">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LtZ-AQ-170" secondAttribute="height" multiplier="1:1" id="QeG-H8-4Kw"/>
+                                </constraints>
+                                <state key="normal" image="斜线"/>
+                                <connections>
+                                    <action selector="symbolButtonTouched:" destination="rJJ-Nl-Ppu" eventType="touchUpInside" id="dDA-dG-XQc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMI-kK-AGO">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OMI-kK-AGO" secondAttribute="height" multiplier="1:1" id="vd2-QZ-8df"/>
+                                </constraints>
+                                <state key="normal" image="斜线"/>
+                                <connections>
+                                    <action selector="symbolButtonTouched:" destination="rJJ-Nl-Ppu" eventType="touchUpInside" id="sen-Vn-Rqw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AW8-FK-KZr">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="AW8-FK-KZr" secondAttribute="height" multiplier="1:1" id="Lvz-KB-aaE"/>
+                                </constraints>
+                                <state key="normal" image="斜线"/>
+                                <connections>
+                                    <action selector="symbolButtonTouched:" destination="rJJ-Nl-Ppu" eventType="touchUpInside" id="XDD-uI-HY2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OMI-kK-AGO" firstAttribute="centerY" secondItem="ErI-8k-gtV" secondAttribute="centerY" id="3SL-u2-V6b"/>
+                            <constraint firstItem="ErI-8k-gtV" firstAttribute="top" secondItem="5LN-Hx-cIk" secondAttribute="top" id="6m0-OC-15u"/>
+                            <constraint firstItem="szh-h0-THm" firstAttribute="leading" secondItem="ErI-8k-gtV" secondAttribute="trailing" constant="8" id="9dq-wx-8Q2"/>
+                            <constraint firstItem="szh-h0-THm" firstAttribute="width" secondItem="ErI-8k-gtV" secondAttribute="width" id="9r3-Ku-4uq"/>
+                            <constraint firstItem="ErI-8k-gtV" firstAttribute="leading" secondItem="5LN-Hx-cIk" secondAttribute="leading" id="AXn-je-P7m"/>
+                            <constraint firstItem="AW8-FK-KZr" firstAttribute="centerY" secondItem="ErI-8k-gtV" secondAttribute="centerY" id="DMd-Q8-xBs"/>
+                            <constraint firstItem="AW8-FK-KZr" firstAttribute="width" secondItem="ErI-8k-gtV" secondAttribute="width" id="FPz-t8-Mie"/>
+                            <constraint firstItem="LtZ-AQ-170" firstAttribute="width" secondItem="ErI-8k-gtV" secondAttribute="width" id="Sua-jN-FzB"/>
+                            <constraint firstItem="LtZ-AQ-170" firstAttribute="centerY" secondItem="ErI-8k-gtV" secondAttribute="centerY" id="Ysa-7G-H3g"/>
+                            <constraint firstAttribute="bottom" secondItem="ErI-8k-gtV" secondAttribute="bottom" id="aYc-zr-DMY"/>
+                            <constraint firstItem="OMI-kK-AGO" firstAttribute="leading" secondItem="LtZ-AQ-170" secondAttribute="trailing" constant="8" id="b2y-lb-K87"/>
+                            <constraint firstItem="OMI-kK-AGO" firstAttribute="width" secondItem="ErI-8k-gtV" secondAttribute="width" id="evz-8Q-t37"/>
+                            <constraint firstItem="AW8-FK-KZr" firstAttribute="leading" secondItem="OMI-kK-AGO" secondAttribute="trailing" constant="8" id="j4e-gd-2Wh"/>
+                            <constraint firstItem="szh-h0-THm" firstAttribute="centerY" secondItem="ErI-8k-gtV" secondAttribute="centerY" id="k7E-yE-XA9"/>
+                            <constraint firstItem="LtZ-AQ-170" firstAttribute="leading" secondItem="szh-h0-THm" secondAttribute="trailing" constant="8" id="kq6-ax-nFe"/>
+                            <constraint firstAttribute="trailing" secondItem="AW8-FK-KZr" secondAttribute="trailing" id="vAC-Oq-p3U"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5LN-Hx-cIk" firstAttribute="centerX" secondItem="2hx-he-MQy" secondAttribute="centerX" id="Hlf-Gt-g5i"/>
+                    <constraint firstItem="5LN-Hx-cIk" firstAttribute="centerY" secondItem="2hx-he-MQy" secondAttribute="centerY" id="yo8-0J-EHG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="516" y="391"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="斜线" width="100" height="100"/>
+    </resources>
+</document>

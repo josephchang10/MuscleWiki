@@ -32,6 +32,7 @@ class ExerciseVideoTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         self.videoPlayerView = VIMVideoPlayerView()
+        self.videoPlayerView.backgroundColor = UIColor(red: 43/255, green: 51/255, blue: 79/255, alpha: 1)
         self.videoPlayerView.translatesAutoresizingMaskIntoConstraints = false
         self.contentView.addSubview(self.videoPlayerView)
         self.videoPlayerView.addConstraint(NSLayoutConstraint(item: self.videoPlayerView, attribute: .Width, relatedBy: .Equal, toItem: nil, attribute: .NotAnAttribute, multiplier: 1, constant: UIScreen.mainScreen().bounds.width))

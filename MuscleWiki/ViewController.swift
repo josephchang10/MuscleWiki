@@ -47,7 +47,7 @@ class ViewController: UIViewController {
                         b.imageView = frontMuscleImageView
                         let button = MuscleButton(frame: CGRectMake(b.x,b.y,b.width,b.height))
                         print("添加按钮在位置：\(button.frame)，是第\(i)块肌肉")
-                        button.addTarget(self, action: "tapMuscle:", forControlEvents: .TouchUpInside)
+                        button.addTarget(self, action: #selector(ViewController.tapMuscle(_:)), forControlEvents: .TouchUpInside)
                         //                    button.backgroundColor = UIColor.redColor()
                         button.imageName = b.touchImageFileName
                         button.muscle = muscle
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
                 
                 
             }
-            i++
+            i += 1
         }
     }
 
@@ -68,6 +68,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("全身图位置：\(self.frontMuscleImageView.frame)")
         transition.edge = .Right
+        
+        let gradient = CAGradientLayer()
+        gradient.frame = self.view.bounds
+        gradient.colors = [UIColor(red: 42/255, green: 61/255, blue: 78/255, alpha: 1).CGColor, UIColor(red: 30/255, green: 35/255, blue: 54/255, alpha: 1).CGColor]
+        self.view.layer.insertSublayer(gradient, atIndex: 0)
         
         self.getData()
     }
@@ -89,10 +94,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    override func prefersStatusBarHidden() -> Bool {
-        return true
+    
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
     }
+
+//    override func prefersStatusBarHidden() -> Bool {
+//        return true
+//    }
     
     func tapMuscle(sender: MuscleButton) {
         print("按了\(self.muscles[sender.tag].name)")
